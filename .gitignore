@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+venv/
+_site/
+_site_temp/
+site/
+__pycache__/
+temp/
+temp_todo/
+usrdocument2018.wixsite.com/
+wix_backup/
+*.pptx.pdf

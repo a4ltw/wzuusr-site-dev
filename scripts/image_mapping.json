@@ -1,0 +1,692 @@
+{
+  "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png": {
+    "local_path": "assets/images/events/e316f544f9094143_e40ef23c.png",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/501c00be9534430d97c70d2342d92c3e.jpg/v1/fill/w_147,h_47,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/501c00be9534430d97c70d2342d92c3e.jpg": {
+    "local_path": "assets/images/events/501c00be9534430d_36f4a107.jpg",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/81af6121f84c41a5b4391d7d37fce12a.png": {
+    "local_path": "assets/images/events/81af6121f84c41a5_df3760f1.png",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/a1b09fe8b7f04378a9fe076748ad4a6a.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a1b09fe8b7f04378a9fe076748ad4a6a.png": {
+    "local_path": "assets/images/events/a1b09fe8b7f04378_63225a73.png",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_b4959828c6ea493bbd40f3e98cfc755b~mv2.png/v1/fill/w_220,h_242,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/USRLogo_0506_%E9%BB%83%E5%AD%97.png": {
+    "local_path": "assets/images/partners/10e09e_b4959828c_f55d6b49.png",
+    "source_file": "contact.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/9f9c321c774844b793180620472aa4f1.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9f9c321c774844b793180620472aa4f1.png": {
+    "local_path": "assets/images/events/9f9c321c774844b7_f915ade4.png",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_56,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png": {
+    "local_path": "assets/images/events/23fd2a2be53141ed_d7f66da4.png",
+    "source_file": "contact.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_c3256e93d75542dd800d8015f9169dce~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/040205.png": {
+    "local_path": "assets/images/materials/10e09e_c3256e93d_f9e14aa6.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_c3c425fac97847c28e11424fb7ac8fc2~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/050701.png": {
+    "local_path": "assets/images/materials/10e09e_c3c425fac_fffa3c00.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_97fa8122fc014657aa22698fc7289d28~mv2.png/v1/fill/w_872,h_492,al_c,q_90,enc_avif,quality_auto/Olivia%E8%80%81%E5%B8%AB_20250510.png": {
+    "local_path": "assets/images/events/2025/10e09e_97fa8122f_fa08c65a.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_76dbba9ab71f475cbcaeb6526378800a~mv2.png/v1/fill/w_872,h_492,al_c,q_90,enc_avif,quality_auto/040202.png": {
+    "local_path": "assets/images/materials/10e09e_76dbba9ab_a681488b.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_884c2d6ac01e45f68291c91512c05d69~mv2.png/v1/fill/w_954,h_538,al_c,q_90,enc_avif,quality_auto/040206.png": {
+    "local_path": "assets/images/materials/10e09e_884c2d6ac_b107e15c.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_8a5c044d2852421486c6776c30bb98d7~mv2.png/v1/fill/w_953,h_537,al_c,q_90,enc_avif,quality_auto/051402.png": {
+    "local_path": "assets/images/materials/10e09e_8a5c044d2_c22ece3a.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_ddc20567ea754d41bd5da0310fabe3dd~mv2.png/v1/fill/w_945,h_533,al_c,q_90,enc_avif,quality_auto/042302.png": {
+    "local_path": "assets/images/materials/10e09e_ddc20567e_16a4122b.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_5683c2471ee34c66896e989ccadc6cc2~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/050701.png": {
+    "local_path": "assets/images/materials/10e09e_5683c2471_4a87885b.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_6609da376a80428f85d5f5606b61f8c2~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/043002.png": {
+    "local_path": "assets/images/materials/10e09e_6609da376_bd2479f8.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_08ceb8b34ad04d54a903d47846ae0e4e~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png": {
+    "local_path": "assets/images/materials/10e09e_08ceb8b34_9b285483.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_317badfbd4d14611b9737891f613a7f5~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Greeting%20Week%202_zip%20-%201.png": {
+    "local_path": "assets/images/materials/10e09e_317badfbd_c155d66b.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_a0d3bac887a34f67bbe57218b9ab9adf~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/043001.png": {
+    "local_path": "assets/images/materials/10e09e_a0d3bac88_60211744.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_400de98dc5f344238f810d713b28b9b8~mv2.png/v1/fill/w_954,h_538,al_c,q_90,enc_avif,quality_auto/042301.png": {
+    "local_path": "assets/images/materials/10e09e_400de98dc_27766ac5.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_d8104f45a77941eaba7d6d0b5479d4d1~mv2.png/v1/fill/w_954,h_538,al_c,q_90,enc_avif,quality_auto/040201.png": {
+    "local_path": "assets/images/materials/10e09e_d8104f45a_97155f5b.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_f60ce1d9aeb247df870c90ae68b740cf~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/043004.png": {
+    "local_path": "assets/images/materials/10e09e_f60ce1d9a_481188f7.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_da2c17dcf95e48eea0d0383952854b95~mv2.png/v1/fill/w_950,h_536,al_c,q_90,enc_avif,quality_auto/050702.png": {
+    "local_path": "assets/images/materials/10e09e_da2c17dcf_77e33859.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_abebdd583dff4571a5e413384a699786~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/051401.png": {
+    "local_path": "assets/images/materials/10e09e_abebdd583_0ffd5729.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_2180952bfc7646b3a8a20347b916904e~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2.png": {
+    "local_path": "assets/images/materials/10e09e_2180952bf_fcdf38cb.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_601c9fde23284ac184bbdd44fa01d39a~mv2.png/v1/fill/w_865,h_488,al_c,q_90,enc_avif,quality_auto/040201.png": {
+    "local_path": "assets/images/materials/10e09e_601c9fde2_9e1b69cd.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_e24a685b876042b7aa013aeb43c2c0d2~mv2.png/v1/fill/w_867,h_489,al_c,q_90,enc_avif,quality_auto/040901-2.png": {
+    "local_path": "assets/images/materials/10e09e_e24a685b8_a7784f26.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_1f2482a35510468d9c077dd698483afc~mv2.png/v1/fill/w_954,h_538,al_c,q_90,enc_avif,quality_auto/042304.png": {
+    "local_path": "assets/images/materials/10e09e_1f2482a35_254367bd.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_9f3817b1dc434614b6de8f750c3998fa~mv2.png/v1/fill/w_670,h_378,al_c,lg_1,q_85,enc_avif,quality_auto/051402.png": {
+    "local_path": "assets/images/materials/10e09e_9f3817b1d_b8731fdb.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_d6942968618346eb97d4b0fc6d0634e3~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/050704.png": {
+    "local_path": "assets/images/materials/10e09e_d69429686_a48ca9fa.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_33342b1db65c4ecebe300a8b7bdb8d3f~mv2.png/v1/fill/w_871,h_491,al_c,q_90,enc_avif,quality_auto/Sandra%E8%80%81%E5%B8%AB_20250517.png": {
+    "local_path": "assets/images/events/2025/10e09e_33342b1db_bc742931.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_1353f44016764a68a1d69f70b4e1a055~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/043001.png": {
+    "local_path": "assets/images/materials/10e09e_1353f4401_4e8146b2.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_be6c8228913a4eb08c16359bf0b8cfd8~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/040202.png": {
+    "local_path": "assets/images/materials/10e09e_be6c82289_3b57f847.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_38d218b0856d4588b7c96c7ce6396c3b~mv2.png/v1/fill/w_1000,h_564,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/040902.png": {
+    "local_path": "assets/images/materials/10e09e_38d218b08_38a82cde.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/10e09e_20b68d3df84d443d8333de925f94c92a~mv2.png/v1/fill/w_957,h_540,al_c,q_90,enc_avif,quality_auto/040204.png": {
+    "local_path": "assets/images/materials/10e09e_20b68d3df_8bdf9004.png",
+    "source_file": "副本-英文課程教材-materials-of-english-education.html",
+    "category": "materials"
+  },
+  "https://static.wixstatic.com/media/409f02_18a2b4035e1d436aa8ecc4ec63d96a50~mv2.jpg/v1/fill/w_822,h_564,al_c,q_85,enc_avif,quality_auto/97307225_2968360479910627_33969279283348.jpg": {
+    "local_path": "assets/images/awards/409f02_18a2b4035_bb6972e6.jpg",
+    "source_file": "usr-expo-中文.html",
+    "category": "awards"
+  },
+  "https://static.wixstatic.com/media/11062b_d5018efd87564964999d6c3e421ddaf6~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_81,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_d5018efd87564964999d6c3e421ddaf6~mv2_d_5760_3840_s_4_2.jpg": {
+    "local_path": "assets/images/awards/11062b_d5018efd8_daea728d.jpg",
+    "source_file": "usr-expo-中文.html",
+    "category": "awards"
+  },
+  "https://static.wixstatic.com/media/409f02_2f5883f81a6d4e4fa26507824f6f98af~mv2.jpg/v1/fill/w_440,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KMU_logo300dpi.jpg": {
+    "local_path": "assets/images/partners/409f02_2f5883f81_155b9b68.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_ab3a3aadc7be4cb482a77bb4dfb03be1~mv2.jpg/v1/fill/w_358,h_370,al_c,lg_1,q_80,enc_avif,quality_auto/%E9%A0%98%E5%8F%A3.jpg": {
+    "local_path": "assets/images/partners/409f02_ab3a3aadc_a59ea1d7.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_ce590abbe08145488076c10d6ea4684a~mv2.jpg/v1/fill/w_393,h_406,al_c,lg_1,q_80,enc_avif,quality_auto/%E6%93%B7%E5%8F%96444_JPG.jpg": {
+    "local_path": "assets/images/partners/409f02_ce590abbe_7f17d387.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_52bcce14c0c54b2a9aaf207c91d76dbc~mv2.jpg/v1/fill/w_280,h_280,al_c,lg_1,q_80,enc_avif,quality_auto/%E7%AB%8B%E5%BE%B7%E5%9C%8B%E4%B8%AD.jpg": {
+    "local_path": "assets/images/partners/409f02_52bcce14c_6df3707d.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_628411e60ceb4d318651bbf16d8188c2~mv2.png/v1/fill/w_305,h_315,al_c,lg_1,q_85,enc_avif,quality_auto/images.png": {
+    "local_path": "assets/images/partners/409f02_628411e60_8fabc376.png",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_6dca2bc817e34700941bd370a0418b4f~mv2.jpg/v1/fill/w_305,h_315,al_c,lg_1,q_80,enc_avif,quality_auto/images.jpg": {
+    "local_path": "assets/images/partners/409f02_6dca2bc81_fb253b91.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_bc1dcb29b9b942eebcc2a7dfa5dd2ea4~mv2.png/v1/fill/w_134,h_139,al_c,lg_1,q_85,enc_avif,quality_auto/%E5%96%84%E5%B0%8E.png": {
+    "local_path": "assets/images/partners/409f02_bc1dcb29b_39b4a379.png",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_6ba83d52b5004bf79631beb9ea63d992~mv2.jpg/v1/fill/w_305,h_315,al_c,lg_1,q_80,enc_avif,quality_auto/%E4%B8%8B%E8%BC%89.jpg": {
+    "local_path": "assets/images/partners/409f02_6ba83d52b_f8eda6c7.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/409f02_f9d182defc0b45809be6b7aa31d1ea6a~mv2.png/v1/fill/w_420,h_434,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E9%83%A8%E5%BE%BD14.png": {
+    "local_path": "assets/images/partners/409f02_f9d182def_86a80298.png",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/daa8147c90904123b99659c0169c0d91.jpg/v1/fill/w_129,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/daa8147c90904123b99659c0169c0d91.jpg": {
+    "local_path": "assets/images/partners/daa8147c90904123_4cbac203.jpg",
+    "source_file": "合作夥伴.html",
+    "category": "partners"
+  },
+  "https://static.wixstatic.com/media/11062b_a511ebd10f99444ea1d8350395b14d4e~mv2.jpg/v1/fill/w_69,h_46,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_a511ebd10f99444ea1d8350395b14d4e~mv2.jpg": {
+    "local_path": "assets/images/events/11062b_a511ebd10_f84ffb93.jpg",
+    "source_file": "媒體報導-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/5a2ce0eccfe64763b4a354eed7aa0f02.jpg/v1/fill/w_72,h_48,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/5a2ce0eccfe64763b4a354eed7aa0f02.jpg": {
+    "local_path": "assets/images/events/5a2ce0eccfe64763_f284050b.jpg",
+    "source_file": "副本-110年媒體報導-news-report.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_a6846129287a4680bc2b50eac4059671~mv2.jpg/v1/fill/w_108,h_81,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/10e09e_a6846129287a4680bc2b50eac4059671~mv2.jpg": {
+    "local_path": "assets/images/events/10e09e_a68461292_3cd57440.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_de703b152b5348e98fcbc637214a7141~mv2.jpg/v1/fill/w_144,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_de703b152b5348e98fcbc637214a7141~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_de703b152_7f188b0c.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_06ffa32244f64e5da932e6fa681a9839~mv2.png/v1/fill/w_49,h_34,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/10e09e_06ffa32244f64e5da932e6fa681a9839~mv2.png": {
+    "local_path": "assets/images/events/10e09e_06ffa3224_08511ee8.png",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_e2cd912d8fa7497da21d47db5d3ff207~mv2.jpg/v1/fill/w_144,h_108,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_e2cd912d8fa7497da21d47db5d3ff207~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_e2cd912d8_c6222114.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/11062b_533d3deb9ff1496c968c9c63e5891ad0~mv2.jpg/v1/fill/w_81,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_533d3deb9ff1496c968c9c63e5891ad0~mv2.jpg": {
+    "local_path": "assets/images/events/11062b_533d3deb9_55399791.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_29342be29233488d8797eed0b36b3c71~mv2.jpg/v1/fill/w_144,h_108,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_29342be29233488d8797eed0b36b3c71~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_29342be29_45fe10dd.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_ec9b1ba60ba34bab8d71169196224be2~mv2.jpg/v1/fill/w_144,h_122,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_ec9b1ba60ba34bab8d71169196224be2~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_ec9b1ba60_9f8030f3.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_a2615d928f8543b99bbfeeab4e6af702~mv2.jpg/v1/fill/w_144,h_108,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_a2615d928f8543b99bbfeeab4e6af702~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_a2615d928_a2a9d754.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_3e947f29dc244559b1ba261ef6d1c110~mv2.jpg/v1/fill/w_144,h_66,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_3e947f29dc244559b1ba261ef6d1c110~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_3e947f29d_dd945420.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_d08c2e820f0744e3acf7dc71844b936f~mv2.jpg/v1/fill/w_147,h_110,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_d08c2e820f0744e3acf7dc71844b936f~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_d08c2e820_ce22fa28.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_34cbe832c5f74273af55a60684f478b1~mv2.jpg/v1/fill/w_147,h_83,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_34cbe832c5f74273af55a60684f478b1~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_34cbe832c_32d7b97e.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_285d5edf46314a5ab8601ba593fc5d0e~mv2.jpg/v1/fill/w_633,h_355,al_c,lg_1,q_80,enc_avif,quality_auto/500901114_1237035285099407_6000314423436854464_n.jpg": {
+    "local_path": "assets/images/events/10e09e_285d5edf4_52a99892.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_f3fb169722c34b4b8b63c3f3efb78c46~mv2.jpg/v1/fill/w_144,h_81,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_f3fb169722c34b4b8b63c3f3efb78c46~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_f3fb16972_36c7b71a.jpg",
+    "source_file": "服務場域.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_b4e8549b621a490182cc59152174d919~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181239972_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_b4e8549b6_c9b8f28a.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_80322a3ca0504a3186bb6ed1a5fbde03~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181239936_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_80322a3ca_f363bf97.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_9e1eb52fb30d4a288f996344c32ccd25~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181239951_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_9e1eb52fb_0c36d217.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_10824ab6ca8b46b38e33df9d620e0f59~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240048_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_10824ab6c_311caa81.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_5071c11bdb80455898fb05ee05cdba6e~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240112_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_5071c11bd_31ee32cd.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_9f773a0113234ccf817a51e8054363e8~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240047_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_9f773a011_b57b9317.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_ad53939504774339a038cc4b9bef110b~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240028_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_ad5393950_4e7cd42b.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_62d6b7bd057348ab8bf9f311e0a0ea5d~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240015_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_62d6b7bd0_a659f0b8.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_0be5cbf84ac4430faf77e67163334f84~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181239939_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_0be5cbf84_31620b43.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_acbfe48f8139457eb6c843f184b94b07~mv2.jpg/v1/fill/w_1564,h_878,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/10e09e_acbfe48f8139457eb6c843f184b94b07~mv2.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_acbfe48f8_e2336a8a.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_e40dad3ae54349a287c6ac9e3aae0b76~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240052_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_e40dad3ae_c8211cb4.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_c1125b2b316b42819dc287327607a51b~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/10e09e_c1125b2b316b42819dc287327607a51b~mv2.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_c1125b2b3_675a9206.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_9207ca4e4459488ab9874da2f19125fd~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240036_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_9207ca4e4_ff78aed8.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_13736e6213b546769acf2fa9b7aeeaa1~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240118_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_13736e621_993e4ade.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_2fbe5f6b9cda44408a5387632fc93029~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240017_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_2fbe5f6b9_888e7a60.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_00a1ef1664de4656a2170451ae6277c1~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240032_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_00a1ef166_aa72d8a0.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_fe6bf4d6318944b99f84f6088d00fa3e~mv2.jpg/v1/fill/w_826,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/S__181240113_0.jpg": {
+    "local_path": "assets/images/events/2025/10e09e_fe6bf4d63_d3112c9c.jpg",
+    "source_file": "副本-2025蚵寮ai永續探索營.html",
+    "category": "events/2025"
+  },
+  "https://static.wixstatic.com/media/10e09e_013a593767334c5e9e1cd7119d1f708f~mv2.jpg/v1/fill/w_271,h_280,al_c,lg_1,q_80,enc_avif,quality_auto/200x200-604-%E8%B6%99%E9%9D%9C%E9%9B%85.jpg": {
+    "local_path": "assets/images/team/10e09e_013a59376_871da85c.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/409f02_72d128b9570049b8910ad4082829da92~mv2.png/v1/fill/w_600,h_613,al_c,lg_1,q_90,enc_avif,quality_auto/%E6%93%B7%E5%8F%96_PNG.png": {
+    "local_path": "assets/images/team/409f02_72d128b95_62fad38c.png",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_c6970f759a18451db4ab7c2a7f5dbc3d~mv2.jpg/v1/fill/w_335,h_346,al_c,lg_1,q_80,enc_avif,quality_auto/1753769463061.jpg": {
+    "local_path": "assets/images/team/10e09e_c6970f759_d54d0054.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_1d0a79f3bb7c479da3b6857ad674eca1~mv2.jpg/v1/fill/w_188,h_195,al_c,lg_1,q_80,enc_avif,quality_auto/200x200-1921-CaptureOneCatalog0049%E6%9E%97%E8%99%B9%E7%A7%80_ed.jpg": {
+    "local_path": "assets/images/team/10e09e_1d0a79f3b_703e6cba.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/6adc49ff7ba7423ca55006a3afedf132.png/v1/fill/w_432,h_434,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E9%98%BF%E5%87%A1%E9%81%94102.png": {
+    "local_path": "assets/images/team/6adc49ff7ba7423c_df8711eb.png",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_501312c2cbdf469d87933a4ab2066cc2~mv2.jpg/v1/fill/w_181,h_187,al_c,lg_1,q_80,enc_avif,quality_auto/200x200-304_Emma_edited_edited.jpg": {
+    "local_path": "assets/images/team/10e09e_501312c2c_385b140e.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/657d93c686e44e2d9b543a6e1e42cbca.jpg/v1/fill/w_81,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/657d93c686e44e2d9b543a6e1e42cbca.jpg": {
+    "local_path": "assets/images/team/657d93c686e44e2d_b3150537.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_23b0ac8093fa46a9889ff92f8e710f86~mv2.jpg/v1/fill/w_280,h_281,al_c,lg_1,q_80,enc_avif,quality_auto/%E5%91%A8%E6%98%A5%E6%9B%89.jpg": {
+    "local_path": "assets/images/team/10e09e_23b0ac809_a766e241.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_9744849553b647909e6f32231015e76e~mv2.jpg/v1/fill/w_203,h_210,al_c,lg_1,q_80,enc_avif,quality_auto/27751170560_fc7159206a_q.jpg": {
+    "local_path": "assets/images/team/10e09e_974484955_1901209c.jpg",
+    "source_file": "計畫團隊.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/409f02_4bb915aa60334af6867e1a755ddb928d~mv2.jpg/v1/fill/w_2048,h_1536,al_c,q_90/409f02_4bb915aa60334af6867e1a755ddb928d~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_4bb915aa6_dc829340.jpg",
+    "source_file": "events-1/hua-yu-jiao-xue-zhi-gong-shen-cang-bu-lu-de-hao-gong-fu.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_47bc770b88c34cda95cdbbe92660eccc~mv2.png/v1/fill/w_642,h_339,al_c/409f02_47bc770b88c34cda95cdbbe92660eccc~mv2.png": {
+    "local_path": "assets/images/events/409f02_47bc770b8_325ef0ce.png",
+    "source_file": "events-1/wei-ji-jiu-shi-zhuan-ji.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_22e1959139154f14871e689568af9047~mv2.jpg/v1/fill/w_1478,h_1108,al_c,q_85/409f02_22e1959139154f14871e689568af9047~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_22e195913_7e295e45.jpg",
+    "source_file": "events-1/usr-chuang-xin-jiao-xue-mo-shi-lian-jie-chang-yu-huo-ban-song-tong-shu-dao-jian-guo.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_57435bd7d08147cc91a379c222765c5f~mv2.jpg/v1/fill/w_2048,h_1536,al_c,q_90/409f02_57435bd7d08147cc91a379c222765c5f~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_57435bd7d_942c2dd9.jpg",
+    "source_file": "events-1/xiao-luo-si-ding-jiao-shi-she-qun-xin-ling-xiang-yan.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_33d3c0b65d7c412991e422ff81c144a9~mv2.jpg/v1/fill/w_2048,h_1536,al_c,q_90/409f02_33d3c0b65d7c412991e422ff81c144a9~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_33d3c0b65_9e6ca79e.jpg",
+    "source_file": "events-1/nai-xin-shi-zhong-mei-de-deng-dai-shi-yi-zhong-xiu-lian-yi-chang-chong-man-jing-xi-de-fan-si-yin-dao.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_4d802a3e740f4b349fe76b11651a1127~mv2.jpg/v1/fill/w_960,h_500,al_c,q_85/409f02_4d802a3e740f4b349fe76b11651a1127~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_4d802a3e7_e5bef8c9.jpg",
+    "source_file": "events-1/jian-bu-zhai-hua-yu-ke-cheng-xiang-jian-huan.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_875f86b9fec2432b9676cbb46f90621b~mv2.jpg/v1/fill/w_1280,h_960,al_c,q_85/409f02_875f86b9fec2432b9676cbb46f90621b~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_875f86b9f_5c4f6697.jpg",
+    "source_file": "events-1/xie-shou-she-ji-kua-ling-yu-xue-xi-qi-dong-su-yang-he-xin-neng-li.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_86dc150d70f946dd81e7811dcc7bccce~mv2.jpg/v1/fill/w_1280,h_960,al_c,q_85/409f02_86dc150d70f946dd81e7811dcc7bccce~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_86dc150d7_9097cb78.jpg",
+    "source_file": "events-1/xiao-gang-yi-yuan-xin-jin-zhi-gong-xun-lian.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_ba6091917e7348319de4507bc2b55bb1~mv2.jpg/v1/fill/w_1280,h_960,al_c,q_85/409f02_ba6091917e7348319de4507bc2b55bb1~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_ba6091917_3b7f326a.jpg",
+    "source_file": "events-1/csi-de-re-qing-yu-yuan-jing-gao-jun-kai-yi-shi-de-fen-xiang.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_830d1b3a2fa24683b61533579b19c71e~mv2.png/v1/fill/w_1375,h_763,al_c/409f02_830d1b3a2fa24683b61533579b19c71e~mv2.png": {
+    "local_path": "assets/images/events/409f02_830d1b3a2_7ee15807.png",
+    "source_file": "events-1/song-ai-dao-jian-guo-shuang-yu-hui-ben-yi-ri-ying.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_51f9e9b91c274b2b813b947e3e3740d8~mv2.jpg/v1/fill/w_1479,h_1109,al_c,q_85/409f02_51f9e9b91c274b2b813b947e3e3740d8~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_51f9e9b91_73fb65b9.jpg",
+    "source_file": "events-1/wen-zao-x-li-de-hui-ben-song-ai-jian-bu-zhai-huo-dong-ji-shi.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_3571d9dcb2804e42a90dd59b2fd649de~mv2.jpg/v1/fill/w_774,h_581,al_c,q_85/409f02_3571d9dcb2804e42a90dd59b2fd649de~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_3571d9dcb_dd26e828.jpg",
+    "source_file": "events-1/xiao-luo-si-ding-bian-biao-zhun-bing-ren-le.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_c7054a4ed41c4a30b9c3aac41c058713~mv2.jpg/v1/fill/w_1166,h_981,al_c,q_85/409f02_c7054a4ed41c4a30b9c3aac41c058713~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_c7054a4ed_4cdce72b.jpg",
+    "source_file": "events-1/xin-xue-qi-xin-qi-xiang-xiao-luo-si-ding-ji-xu-xiang-qian-zou.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/3b1f25_9d35e1c9ecf3463ca445233a158dcb86.jpg/v1/fill/w_90,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3b1f25_9d35e1c9ecf3463ca445233a158dcb86.jpg": {
+    "local_path": "assets/images/events/3b1f25_9d35e1c9e_c1757731.jpg",
+    "source_file": "媒體報導.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_61cfca5434cc470a9fbc4df2efd27f66~mv2.jpg/v1/fill/w_1280,h_960,al_c,q_85/409f02_61cfca5434cc470a9fbc4df2efd27f66~mv2.jpg": {
+    "local_path": "assets/images/awards/409f02_61cfca543_25552f27.jpg",
+    "source_file": "events-1/wen-zaousr-qian-jinexpo-gan-dong-jiu-shi-you-ni-you-wo.html",
+    "category": "awards"
+  },
+  "https://static.wixstatic.com/media/409f02_46ae26405377494a98b7872ad2f18099~mv2.jpg/v1/fill/w_1455,h_542,al_c,q_85/409f02_46ae26405377494a98b7872ad2f18099~mv2.jpg": {
+    "local_path": "assets/images/awards/409f02_46ae26405_b7c28723.jpg",
+    "source_file": "events-1/gong-xi-ben-ji-hua-tuan-duiusr-talk-ru-xuan-le-2022-usr-expo-usr-talk-wu-tai.html",
+    "category": "awards"
+  },
+  "https://static.wixstatic.com/media/409f02_66947ed1664742899da22136264ab79c~mv2.jpg/v1/fill/w_983,h_784,al_c,q_85/409f02_66947ed1664742899da22136264ab79c~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_66947ed16_c9fa2bb2.jpg",
+    "source_file": "events-1/wen-zao-wen-nuan-bai-se-ju-ta-de-xiao-luo-si-dingusr-ji-hua-yu12yue15ri-wan-jian-long-zhong-ju-ban-di-shi-ci-de-qi-mo-qi.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_b8275899e0fe446e945bb61e8af732d1~mv2.jpg/v1/fill/w_1171,h_796,al_c,q_85/409f02_b8275899e0fe446e945bb61e8af732d1~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_b8275899e_55dd0dd9.jpg",
+    "source_file": "events-1/wen-zao-xiao-luo-si-ding-yong-bu-fang-qi-yi-da-yi-yuan-zhi-gong-xun-lian.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_b2a7b28840b44dd2974e769674e7a52c~mv2.jpg/v1/fill/w_1280,h_802,al_c,q_85/409f02_b2a7b28840b44dd2974e769674e7a52c~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_b2a7b2884_7278510a.jpg",
+    "source_file": "events-1/guan-ai-wu-guo-jie-xi-wang-yong-bu-xi-song-ai-dao-jian-guo-shuang-yu-hui-ben-yi-ri-ying-gao-shu-guo-xiao.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_30860f8b3b654c85a79562e07271d554~mv2.png/v1/fill/w_122,h_85,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_30860f8b3b654c85a79562e07271d554~mv2.png": {
+    "local_path": "assets/images/events/409f02_30860f8b3_d14277db.png",
+    "source_file": "about-3-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_af2e70d900774a90a2a45190b3856995~mv2.png/v1/crop/x_12,y_0,w_488,h_512,q_85,blur_2,enc_avif,quality_auto/409f02_af2e70d900774a90a2a45190b3856995~mv2.png": {
+    "local_path": "assets/images/events/409f02_af2e70d90_6356dcb6.png",
+    "source_file": "about-3-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_eb2d244a435f4a5e8d6f8cf616ad645a~mv2.png/v1/fill/w_122,h_81,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_eb2d244a435f4a5e8d6f8cf616ad645a~mv2.png": {
+    "local_path": "assets/images/events/409f02_eb2d244a4_996625fb.png",
+    "source_file": "about-3-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_36180c8c04a041b09dd34529d390d026~mv2.jpg/v1/fill/w_122,h_68,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/10e09e_36180c8c04a041b09dd34529d390d026~mv2.jpg": {
+    "local_path": "assets/images/events/10e09e_36180c8c0_1c490193.jpg",
+    "source_file": "about-3-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_426c0a478db14332be38469de7238169~mv2.png/v1/fill/w_122,h_70,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_426c0a478db14332be38469de7238169~mv2.png": {
+    "local_path": "assets/images/events/409f02_426c0a478_14a147ea.png",
+    "source_file": "about-3-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_31a54bdb70d84bf1b48b063c609a430a~mv2.png/v1/fill/w_644,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%873.png": {
+    "local_path": "assets/images/team/10e09e_31a54bdb7_cc40a287.png",
+    "source_file": "副本-計畫團隊-project-team.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_57c7869381f9401ea407328a4cf06119~mv2.jpg/v1/fill/w_117,h_57,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/10e09e_57c7869381f9401ea407328a4cf06119~mv2.jpg": {
+    "local_path": "assets/images/team/10e09e_57c786938_6684e7db.jpg",
+    "source_file": "副本-計畫團隊-project-team.html",
+    "category": "team"
+  },
+  "https://static.wixstatic.com/media/10e09e_475cd410e5ca4e5282a4f670145bec75~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/500951019_1237035681766034_336446901014691529_n.jpg": {
+    "local_path": "assets/images/events/10e09e_475cd410e_f589345a.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_5ed7fac9bb154bffbe6a5b697d0c8fab~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501368095_1237035615099374_267778128011426217_n.jpg": {
+    "local_path": "assets/images/events/10e09e_5ed7fac9b_d42f523e.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_ff63fc00a9f848ca9617d4d9a699bc24~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501453501_1237038128432456_7375852309948875151_n.jpg": {
+    "local_path": "assets/images/events/10e09e_ff63fc00a_5f5d96a5.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_b32aeae376c34699a451120c57ac2216~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501969051_1237036538432615_6476561707436283193_n.jpg": {
+    "local_path": "assets/images/events/10e09e_b32aeae37_73343cb6.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_964c85c4e38448e6883b83b35635d6bb~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/500965185_1237035868432682_3479316146428542585_n.jpg": {
+    "local_path": "assets/images/events/10e09e_964c85c4e_215addc9.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_db34e93dfcb54667ad04d713dc0c95fa~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/502685525_1237035985099337_490469779616228719_n.jpg": {
+    "local_path": "assets/images/events/10e09e_db34e93df_3e0e44e6.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_b597f283082a4df38582b072922b3b56~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/500732699_1237035935099342_8077049768611728786_n.jpg": {
+    "local_path": "assets/images/events/10e09e_b597f2830_e8c70b5a.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_ab0c75b7a47a4457af46b1ef097ef5b1~mv2.jpg/v1/fill/w_457,h_355,al_c,lg_1,q_80,enc_avif,quality_auto/500901114_1237035285099407_6000314423436854464_n.jpg": {
+    "local_path": "assets/images/events/10e09e_ab0c75b7a_5e31d9fe.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_794872b7570c4cdc9ab219fbd5b3c4fe~mv2.jpg/v1/fill/w_826,h_642,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501883080_1237035558432713_8909147283277595510_n.jpg": {
+    "local_path": "assets/images/events/10e09e_794872b75_78f12075.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_c6e4b7a4119345799e43794639251293~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501169218_1237036055099330_5734007309262315788_n.jpg": {
+    "local_path": "assets/images/events/10e09e_c6e4b7a41_b6897574.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_8711196e7b424a79b67387e553539e06~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/501384396_1237036115099324_8417096255119714336_n.jpg": {
+    "local_path": "assets/images/events/10e09e_8711196e7_ed422399.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_641987739f3e4f2f831b52d3fc89e87c~mv2.jpg/v1/fill/w_826,h_646,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/500718751_1237038078432461_236631352679147357_n.jpg": {
+    "local_path": "assets/images/events/10e09e_641987739_c16f0d57.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/10e09e_0657744310e743d8a5df7124f998ebbc~mv2.jpg/v1/fill/w_806,h_630,al_c,q_85,enc_avif,quality_auto/501308995_1237038048432464_5326188694231382701_n.jpg": {
+    "local_path": "assets/images/events/10e09e_065774431_98ffd9c7.jpg",
+    "source_file": "副本-活動消息activity.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_b5fe9840635c4bc782b3bbf848aba303~mv2.png/v1/fill/w_827,h_395,al_c,lg_1,q_85,enc_avif,quality_auto/%E6%93%B7%E5%8F%96_PNG.png": {
+    "local_path": "assets/images/events/409f02_b5fe98406_dc94e3f6.png",
+    "source_file": "組織架構.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_5bd0c19aa44f4f4f8e4fb30567a83cbb~mv2.jpg/v1/fill/w_694,h_782,al_c,q_85,enc_avif,quality_auto/3454_JPG.jpg": {
+    "local_path": "assets/images/events/409f02_5bd0c19aa_3338b647.jpg",
+    "source_file": "組織架構.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/3b1f25_0c879616f0414d26997352cbcf27a1ec.jpg/v1/fill/w_81,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/3b1f25_0c879616f0414d26997352cbcf27a1ec.jpg": {
+    "local_path": "assets/images/events/3b1f25_0c879616f_b7482736.jpg",
+    "source_file": "組織架構.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_897390b0c8734dd4b32be0ff3c434cf1~mv2.png/v1/fill/w_122,h_174,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_897390b0c8734dd4b32be0ff3c434cf1~mv2.png": {
+    "local_path": "assets/images/events/409f02_897390b0c_db50d20f.png",
+    "source_file": "about-3.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_58fa8feb0c984744a7063c6e7a5c54a1~mv2.jpg/v1/fill/w_122,h_121,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_58fa8feb0c984744a7063c6e7a5c54a1~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_58fa8feb0_3bbf2140.jpg",
+    "source_file": "about-3.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_9402dd8be24d4bc78d966062bda2434d~mv2.png/v1/crop/x_334,y_0,w_489,h_652,q_85,blur_2,enc_avif,quality_auto/409f02_9402dd8be24d4bc78d966062bda2434d~mv2.png": {
+    "local_path": "assets/images/events/409f02_9402dd8be_59487038.png",
+    "source_file": "about-3.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_d26b56202ae749fd8786c0eebab4680c~mv2.jpg/v1/crop/x_0,y_663,w_489,h_937,q_85,blur_2,enc_avif,quality_auto/409f02_d26b56202ae749fd8786c0eebab4680c~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_d26b56202_8f1be5b2.jpg",
+    "source_file": "about-3.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_39f4299a87ef4a00a25193ecc43d7d5d~mv2.jpg/v1/fill/w_271,h_86,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/409f02_39f4299a87ef4a00a25193ecc43d7d5d~mv2.jpg": {
+    "local_path": "assets/images/events/409f02_39f4299a8_874c2a4b.jpg",
+    "source_file": "about-3.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_908251e4e78f4f549e8a996bc44c37c8~mv2.jpg/v1/fill/w_946,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/119994951_3344220138991324_7698506238342.jpg": {
+    "local_path": "assets/images/events/409f02_908251e4e_cc1cb915.jpg",
+    "source_file": "媒體報導-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/409f02_184abf9d7d8b453d89fda91a32e274c3~mv2.jpg/v1/fill/w_948,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106206163_3080987878647886_1948654999880.jpg": {
+    "local_path": "assets/images/events/409f02_184abf9d7_baa455e0.jpg",
+    "source_file": "媒體報導-1.html",
+    "category": "events"
+  },
+  "https://static.wixstatic.com/media/11062b_2835936bf489427ba698acf73b59a048~mv2.jpg/v1/fill/w_81,h_54,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/11062b_2835936bf489427ba698acf73b59a048~mv2.jpg": {
+    "local_path": "assets/images/team/11062b_2835936bf_d0b9c02f.jpg",
+    "source_file": "教師社群.html",
+    "category": "team"
+  }
+}
