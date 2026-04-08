@@ -1,0 +1,894 @@
+/* ==========================================
+   文藻小螺絲釘網站自訂樣式
+   ========================================== */
+
+/* === 標題錨點連結 === */
+.heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+.heading-anchor:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* === CSS 變數 === */
+:root {
+  /* 品牌色彩 */
+  --usr-primary: #2196F3;
+  --usr-primary-dark: #1976D2;
+  --usr-accent: #FF9800;
+  --usr-accent-dark: #F57C00;
+  --usr-success: #4CAF50;
+
+  /* 間距系統（8px 基礎） */
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+
+  /* 陰影 */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.15);
+  --shadow-lg: 0 8px 16px rgba(0,0,0,0.2);
+
+  /* 圓角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* 轉場 */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* === 深色模式變數 === */
+[data-md-color-scheme="slate"] {
+  --usr-card-bg: #2d2d2d;
+}
+
+[data-md-color-scheme="default"] {
+  --usr-card-bg: #ffffff;
+}
+
+/* === 全域改進 === */
+.md-content {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.md-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  font-weight: 700;
+  color: var(--usr-primary);
+}
+
+.md-content h2 {
+  font-size: 2rem;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 2px solid var(--usr-primary);
+}
+
+.md-content h3 {
+  font-size: 1.5rem;
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  color: var(--usr-primary-dark);
+}
+
+.md-content h4 {
+  font-size: 1.25rem;
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* === 首頁 Hero 區塊 === */
+.hero-section {
+  background: linear-gradient(135deg, var(--usr-primary), var(--usr-accent));
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-md);
+  text-align: center;
+  border-radius: var(--radius-lg);
+  margin: var(--spacing-md) 0 var(--spacing-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-size: 3rem;
+  margin-bottom: var(--spacing-sm);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  border-bottom: none !important;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.95;
+}
+
+.hero-section .usr-btn {
+  margin: var(--spacing-xs);
+}
+
+/* === 卡片組件 === */
+.usr-card {
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--usr-primary);
+  transition: all var(--transition-base);
+}
+
+.usr-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.usr-card h3 {
+  color: var(--usr-primary);
+  margin-top: 0;
+  border-bottom: none !important;
+}
+
+.usr-card h4 {
+  margin-top: var(--spacing-sm);
+}
+
+/* === 卡片網格 === */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.card-grid-2 {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.card-grid-3 {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+/* === 按鈕 === */
+.usr-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--usr-accent);
+  color: white !important;
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-sm);
+  border: none;
+  cursor: pointer;
+}
+
+.usr-btn:hover {
+  background: var(--usr-accent-dark);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.usr-btn-primary {
+  background: var(--usr-primary);
+}
+
+.usr-btn-primary:hover {
+  background: var(--usr-primary-dark);
+}
+
+.usr-btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white !important;
+}
+
+.usr-btn-outline:hover {
+  background: white;
+  color: var(--usr-primary) !important;
+}
+
+/* === 圖片畫廊 === */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing-sm);
+  margin: var(--spacing-md) 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-base);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+/* === 團隊成員卡片 === */
+/* .team-member 已合併至 .team-card，請參閱下方 */
+
+/* === 時間軸 === */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  margin: var(--spacing-md) 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--usr-primary);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--spacing-md);
+  padding: var(--spacing-sm);
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -34px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--usr-primary);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--usr-primary);
+}
+
+.timeline-item h4 {
+  margin-top: 0;
+  color: var(--usr-primary);
+}
+
+/* === 提示框增強 === */
+.admonition {
+  border-left-width: 4px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.admonition.note {
+  border-left-color: var(--usr-primary);
+}
+
+.admonition.tip {
+  border-left-color: var(--usr-success);
+}
+
+.admonition.warning {
+  border-left-color: var(--usr-accent);
+}
+
+/* === 社群媒體圖標 === */
+.social-links {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  margin: var(--spacing-md) 0;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--usr-primary);
+  color: white !important;
+  text-decoration: none;
+  transition: all var(--transition-base);
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  background: var(--usr-accent);
+  transform: scale(1.1);
+}
+
+/* === 標籤 === */
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--usr-primary);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin: 2px;
+}
+
+.tag-accent {
+  background: var(--usr-accent);
+}
+
+.tag-success {
+  background: var(--usr-success);
+}
+
+/* === 特色區塊 === */
+.feature-box {
+  padding: var(--spacing-md);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: var(--radius-lg);
+  margin: var(--spacing-md) 0;
+}
+
+[data-md-color-scheme="slate"] .feature-box {
+  background: linear-gradient(135deg, #2d3436 0%, #434343 100%);
+}
+
+/* === 統計數字 === */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  text-align: center;
+}
+
+.stat-item {
+  padding: var(--spacing-md);
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--usr-primary);
+  line-height: 1;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* === 響應式調整 === */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .image-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .card-grid,
+  .card-grid-2,
+  .card-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .md-content h1 {
+    font-size: 2rem;
+  }
+
+  .md-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .timeline {
+    padding-left: 30px;
+  }
+
+  .timeline-item::before {
+    left: -24px;
+  }
+
+  .usr-btn {
+    display: block;
+    margin: var(--spacing-xs) 0;
+  }
+}
+
+/* === 動畫 === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* === 頁面載入優化 === */
+.md-content img {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  max-width: 100%;
+  height: auto;
+}
+
+.md-typeset table:not([class]) {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+/* === 連結美化 === */
+.md-content a {
+  transition: all var(--transition-fast);
+}
+
+.md-content a:hover {
+  text-decoration: underline;
+}
+
+/* === 分隔線 === */
+.md-content hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--usr-primary), transparent);
+  margin: var(--spacing-lg) 0;
+}
+
+/* === 引用區塊 === */
+.md-content blockquote {
+  border-left: 4px solid var(--usr-primary);
+  padding-left: var(--spacing-md);
+  margin-left: 0;
+  font-style: italic;
+  color: #666;
+}
+
+/* === 程式碼區塊 === */
+.md-content pre {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+/* === 表單元素（如果需要） === */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid #ddd;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--usr-primary);
+}
+
+/* === 合作夥伴 Logo 網格 === */
+/* .partner-item 已合併至 .partner-card，請參閱下方 */
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md);
+}
+
+/* === 教師卡片 === */
+.faculty-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border-top: 4px solid var(--usr-primary);
+}
+
+.faculty-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.faculty-card h3 {
+  color: var(--usr-primary);
+  margin-top: 0;
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.25rem;
+}
+
+.faculty-card .department {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.faculty-card .expertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: auto;
+}
+
+.faculty-card .expertise .tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+}
+
+/* === 部落格文章卡片 === */
+.blog-card {
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.blog-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-card-content {
+  padding: var(--spacing-md);
+}
+
+.blog-card h3 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-xs);
+  font-size: 1.15rem;
+  color: var(--usr-primary);
+}
+
+.blog-card .date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: var(--spacing-sm);
+}
+
+.blog-card .excerpt {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* === 首頁統計數字區塊（現代簡約版） === */
+.stats-section {
+  padding: var(--spacing-xl) var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+
+.stats-section .stats {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stats-section .stat-item {
+  background: transparent;
+  box-shadow: none;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.stats-section .stat-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background: var(--usr-primary);
+  border-radius: 2px;
+}
+
+.stats-section .stat-number {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--usr-primary), var(--usr-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stats-section .stat-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-top: var(--spacing-xs);
+}
+
+[data-md-color-scheme="slate"] .stats-section .stat-label {
+  color: #aaa;
+}
+
+/* === 現代簡約 Hero（大量留白） === */
+.hero-minimal {
+  text-align: center;
+  padding: var(--spacing-xl) var(--spacing-md);
+  max-width: 800px;
+  margin: var(--spacing-xl) auto;
+}
+
+.hero-minimal h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: var(--spacing-md);
+  color: var(--usr-primary);
+  line-height: 1.2;
+}
+
+.hero-minimal .subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: var(--spacing-xs);
+}
+
+.hero-minimal .tagline {
+  font-size: 1.1rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero-minimal .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+[data-md-color-scheme="slate"] .hero-minimal .subtitle,
+[data-md-color-scheme="slate"] .hero-minimal .tagline {
+  color: #aaa;
+}
+
+/* === 功能卡片（更簡潔） === */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-xl) 0;
+}
+
+.feature-card {
+  text-align: center;
+  padding: var(--spacing-lg);
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid transparent;
+}
+
+.feature-card:hover {
+  border-color: var(--usr-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--usr-primary);
+}
+
+.feature-card h3 {
+  margin: 0 0 var(--spacing-sm);
+  font-size: 1.25rem;
+}
+
+.feature-card p {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+[data-md-color-scheme="slate"] .feature-card p {
+  color: #aaa;
+}
+
+/* === 分隔區塊 === */
+.section-divider {
+  padding: var(--spacing-lg) 0;
+  margin: var(--spacing-xl) 0;
+  border-top: 1px solid #eee;
+}
+
+[data-md-color-scheme="slate"] .section-divider {
+  border-top-color: #333;
+}
+
+/* === 響應式調整補充 === */
+@media (max-width: 768px) {
+  .hero-minimal h1 {
+    font-size: 2rem;
+  }
+
+  .hero-minimal .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .stats-section .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .partner-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+/* === 團隊成員網格與卡片 === */
+/* .team-member 和 .team-card 已合併，兩者可互換使用 */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.team-card,
+.team-member {
+  text-align: center;
+  padding: var(--spacing-md);
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+}
+
+.team-card:hover,
+.team-member:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.team-card img,
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: var(--spacing-sm);
+  border: 3px solid var(--usr-primary);
+}
+
+.team-card h3,
+.team-card h4,
+.team-member h3,
+.team-member h4 {
+  margin: var(--spacing-xs) 0;
+  font-size: 1rem;
+  color: var(--usr-primary);
+}
+
+.team-card p,
+.team-member p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* === 合作夥伴卡片 === */
+/* .partner-item 和 .partner-card 已合併，兩者可互換使用 */
+.partner-card,
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md);
+  background: var(--usr-card-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  text-align: center;
+}
+
+.partner-card:hover,
+.partner-item:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.partner-card h3,
+.partner-card h4,
+.partner-item h3,
+.partner-item h4 {
+  margin: var(--spacing-sm) 0;
+  font-size: 1.1rem;
+  color: var(--usr-primary);
+}
+
+.partner-card p,
+.partner-item p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.partner-card img,
+.partner-item img,
+.partner-logo {
+  max-width: 150px;
+  max-height: 100px;
+  object-fit: contain;
+  margin: 0 auto var(--spacing-sm);
+  display: block;
+}
+
+/* === 響應式調整（補充） === */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-card img,
+  .team-member img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
