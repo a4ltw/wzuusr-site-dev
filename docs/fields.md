@@ -1,85 +1,52 @@
 # 實踐場域 Practice Fields
 
-## 服務場域總覽
-
 文藻 USR 計畫在多個場域實踐大學社會責任，結合外語專業提供志工服務。
 
 ---
 
 ## 醫療場域
 
-### 義大醫院
+<div class="image-gallery" markdown>
+![義大醫院](assets/images/events/409f02_e2cd912d8_c6222114.jpg "義大醫院")
+![高雄榮民總醫院](assets/images/events/409f02_de703b152_7f188b0c.jpg "高雄榮民總醫院")
+![小港醫院](assets/images/events/10e09e_06ffa3224_08511ee8.png "高雄市立小港醫院")
+</div>
 
-與義大醫院合作，提供外籍人士、新住民及移工就醫口譯服務，共創就醫無障礙環境。
-
-![義大醫院服務](assets/images/events/409f02_e2cd912d8_c6222114.jpg)
-
-### 高雄榮民總醫院
-
-進駐高雄榮總，協助外籍病患就醫溝通，提升醫療服務品質。
-
-![高雄榮總服務](assets/images/events/409f02_de703b152_7f188b0c.jpg)
-
-### 小港醫院
-
-與小港醫院合作，服務鄰近區域的外籍人士與移工。
-
-![小港醫院服務](assets/images/events/10e09e_06ffa3224_08511ee8.png)
+| 場域 | 合作起始 | 服務內容 |
+|------|---------|---------|
+| 義大醫院 | 2019/09 | 外籍就醫口譯、多語衛教 |
+| 高雄榮民總醫院 | 2016/10 | 外籍就醫口譯、行政支援 |
+| 高雄市立小港醫院 | 2019/03 | 外籍就醫口譯、衛教繪本 |
 
 ---
 
 ## 教育場域
 
-### 蚵寮國小
-
-服務高雄蚵寮地區國小學童，提供英文教學與課後陪伴。
-
-![蚵寮國小服務](assets/images/events/10e09e_a68461292_3cd57440.jpg)
-
-### 蚵寮國中
-
-與蚵寮國中合作，推動英語教育與永續發展主題課程。
+<div class="image-gallery" markdown>
+![蚵寮國中小](assets/images/events/10e09e_a68461292_3cd57440.jpg "蚵寮國中小")
+![旗山國小](assets/images/events/409f02_39f4299a8_874c2a4b.jpg "旗山國小")
+![立德國中](assets/images/events/409f02_4d802a3e7_e5bef8c9.jpg "立德國中")
+</div>
 
 ---
 
 ## 國際場域
 
-### 馬來西亞沙勞越 Sarawak
-
-透過線上課程服務馬來西亞沙勞越地區學童。
-
-### 柬埔寨 Cambodia Green Umbrella KKS
-
-疫情期間持續透過線上方式服務柬埔寨弱勢學童。
-
-![柬埔寨服務](assets/images/events/409f02_29342be29_45fe10dd.jpg)
-
-### 尼泊爾 Nepal
-
-國際志工服務據點。
-
-### 越南 Vietnam Operation Smile
-
-與國際微笑行動組織合作的服務據點。
+<div class="image-gallery" markdown>
+![Cambodia Green Umbrella KKS](assets/images/events/409f02_29342be29_45fe10dd.jpg "Cambodia Green Umbrella KKS")
+![馬來西亞沙勞越 Sarawak](assets/images/events/409f02_33d3c0b65_9e6ca79e.jpg "馬來西亞沙勞越 Sarawak")
+![Vietnam Operation Smile](assets/images/events/409f02_b2a7b2884_7278510a.jpg "Vietnam Operation Smile")
+![尼泊爾 Nepal](assets/images/events/409f02_57435bd7d_942c2dd9.jpg "尼泊爾 Nepal")
+</div>
 
 ---
 
-## 產業合作
+## 產業場域
 
-### 前鎮加工區 - 瑞儀光電
-
-產業志工服務據點。
-
-### 安平工業區 - 黑橋牌企業
-
-產業志工服務據點。
-
----
-
-## 在地學校
-
-- 旗山國小
-- 立德國中
+<div class="image-gallery" markdown>
+![前鎮加工區－瑞儀光電](assets/images/events/409f02_b8275899e_55dd0dd9.jpg "前鎮加工區－瑞儀光電")
+![安平工業區－黑橋牌企業](assets/images/events/409f02_ec9b1ba60_9f8030f3.jpg "安平工業區－黑橋牌企業")
+</div>
 
 ---
 

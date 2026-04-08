@@ -1,4 +1,4 @@
-# 合作夥伴
+# 合作夥伴 Partners
 
 我們與多個醫療機構、教育單位及國際組織建立長期合作關係，共同推動社會實踐計畫。
 
@@ -21,7 +21,7 @@
 <div class="partner-card" markdown>
 ![小港醫院](assets/images/partners/409f02_628411e60_8fabc376.png){ .partner-logo }
 
-### 小港醫院
+### 高雄市立小港醫院
 
 文藻外語大學與「不凡的港醫」小港醫院相遇始於 **2019 年 03 月 26 日**，並攜手建立志工服務與執行「溫暖白色巨塔的小螺絲釘」USR 社會實踐計畫。
 
@@ -38,6 +38,14 @@
 [:octicons-link-external-16: 醫院官網](https://www.edah.org.tw/){ target="_blank" }
 </div>
 
+<div class="partner-card" markdown>
+![高雄醫學大學](assets/images/partners/409f02_ce590abbe_7f17d387.jpg){ .partner-logo }
+
+### 高雄醫學大學
+
+與高雄醫學大學跨校合作，結合醫學專業與外語能力，共同推動國際醫療志工服務。
+</div>
+
 </div>
 
 ---
@@ -47,19 +55,27 @@
 <div class="partner-grid" markdown>
 
 <div class="partner-card" markdown>
-![立德國中](assets/images/partners/409f02_52bcce14c_6df3707d.jpg){ .partner-logo }
+![旗山國小](assets/images/partners/409f02_52bcce14c_6df3707d.jpg){ .partner-logo }
 
-### 高雄市在地學校
+### 旗山國小
 
-與高雄市多所國中小學合作，進行雙語教學與繪本推廣活動。
+文藻外語大學與旗山國小緣起於 **2019 年 09 月 01 日**，並一起共創具熱情及溫暖的英語衛教營隊與執行「溫暖白色巨塔的小螺絲釘」USR 社會實踐計畫。
 </div>
 
 <div class="partner-card" markdown>
-![善導書院](assets/images/partners/409f02_bc1dcb29b_39b4a379.png){ .partner-logo }
+![立德國中](assets/images/partners/409f02_6ba83d52b_f8eda6c7.jpg){ .partner-logo }
 
-### 非營利教育組織
+### 立德國中
 
-合作服務外國弱勢孩童，提升教育素養與學習機會。
+與立德國中合作，推動雙語教學與在地文化教育，讓學生透過服務學習拓展國際視野。
+</div>
+
+<div class="partner-card" markdown>
+![蚵寮國中小](assets/images/partners/409f02_ab3a3aadc_a59ea1d7.jpg){ .partner-logo }
+
+### 蚵寮國中小
+
+深耕高雄蚵寮地區，與蚵寮國中小合作推動英語教育與永續發展主題課程，結合在地漁村文化。
 </div>
 
 </div>
@@ -71,39 +87,22 @@
 <div class="partner-grid" markdown>
 
 <div class="partner-card" markdown>
-![柬埔寨](assets/images/partners/409f02_6ba83d52b_f8eda6c7.jpg){ .partner-logo }
+![Cambodia Green Umbrella](assets/images/partners/409f02_bc1dcb29b_39b4a379.png){ .partner-logo }
 
-### 柬埔寨教育機構
+### Cambodia Green Umbrella KKS
 
-因為網路的連結，台柬線上英文課程突破地理限制，讓文藻國際英語志工們將愛與教育傳遞到柬埔寨。
+國際非營利組織 Green Umbrella 團隊創建的私立 KKS 小學。文藻外語大學與 Green Umbrella 自 **2019 年 01 月 01 日**合作至今，共同展開國際志工服務，讓更多柬埔寨當地小朋友受益。
 </div>
 
 <div class="partner-card" markdown>
-![國際合作](assets/images/partners/409f02_ab3a3aadc_a59ea1d7.jpg){ .partner-logo }
+![GlobeMed Michigan](assets/images/partners/daa8147c90904123_4cbac203.jpg){ .partner-logo }
 
-### 國際志工組織
+### GlobeMed at University of Michigan
 
-與各國志工團體合作，共同推動國際服務學習計畫。
+文藻國際志工在執行柬埔寨國際志工服務時，結識了志同道合的夥伴 GlobeMed at University of Michigan，並自 **2020 年 03 月 02 日**一起並肩前行在「服務學習」的道路上。
 </div>
 
 </div>
-
----
-
-## 合作模式
-
-```mermaid
-graph LR
-    A[文藻 USR 計畫] --> B[醫療服務]
-    A --> C[教育推廣]
-    A --> D[國際合作]
-    B --> E[口譯志工服務]
-    B --> F[衛教繪本製作]
-    C --> G[雙語教學]
-    C --> H[繪本共讀]
-    D --> I[線上課程]
-    D --> J[國際交流]
-```
 
 ---
 
