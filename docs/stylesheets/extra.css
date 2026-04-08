@@ -2,6 +2,16 @@
    文藻小螺絲釘網站自訂樣式
    ========================================== */
 
+/* === 標題錨點連結 === */
+.heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+.heading-anchor:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* === CSS 變數 === */
 :root {
   /* 品牌色彩 */
