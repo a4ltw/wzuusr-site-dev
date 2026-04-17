@@ -7,6 +7,9 @@ venv/
 _site/
 _site_temp/
 site/
+dist/
+node_modules/
+.astro/
 __pycache__/
 temp/
 temp_todo/
