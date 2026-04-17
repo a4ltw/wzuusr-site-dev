@@ -1,17 +1,142 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
 
+const stats = [
+  { number: '7+', label: '跨系所合作' },
+  { number: '3',  label: '合作醫院' },
+  { number: '11+', label: '參與教師' },
+  { number: '100+', label: '培訓志工' },
+];
+
+const activities = [
+  {
+    title: '2025 蚵寮 AI 永續探索營',
+    date: '2025年',
+    excerpt: '結合 AI 科技與在地永續，帶領學生深入蚵寮社區，探索海洋生態與科技教育的無限可能。',
+    image: '/images/events/act1.jpg',
+    href: '/blog/2025-oyster-camp',
+  },
+  {
+    title: '2025 攝影展《遊 SEA 時光》',
+    date: '2025年',
+    excerpt: '以鏡頭記錄志工服務的點滴，展現文藻學子在醫療翻譯與國際服務中的成長故事。',
+    image: '/images/events/act2.jpg',
+    href: '/blog/2025-photo-exhibition',
+  },
+  {
+    title: '2025 義大醫院移工健檢口譯',
+    date: '2025年',
+    excerpt: '協助義大醫院為移工進行健康檢查口譯服務，落實就醫無障礙的核心使命。',
+    image: '/images/events/act3.jpg',
+    href: '/blog/2025-health-check',
+  },
+  {
+    title: '2025 期末慶賀發表會',
+    date: '2025年',
+    excerpt: '學期末的成果發表，志工們分享服務學習的收穫，與場域夥伴共同回顧精彩旅程。',
+    image: '/images/events/act4.jpg',
+    href: '/blog/2025-semester-end',
+  },
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="文藻小螺絲釘 WUTH — Wenzao USR: Tech with Heart">
+
+  <!-- Hero -->
+  <section class="relative h-[90vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden">
+    <img
+      src="/images/hero.jpg"
+      alt="文藻 USR 計畫"
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+    <div class="relative z-10 px-4 max-w-3xl mx-auto">
+      <p class="text-orange-400 font-semibold text-sm uppercase tracking-[0.3em] mb-4">
+        Wenzao USR: Tech with Heart
+      </p>
+      <h1 class="text-white text-4xl md:text-6xl font-bold leading-tight mb-4">
+        文藻小螺絲釘
+      </h1>
+      <p class="text-gray-200 text-lg md:text-xl mb-8 leading-relaxed">
+        Tech warms, love sustains, worldwide connection.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/join"
+          class="px-8 py-3 bg-[#1a56a0] hover:bg-[#1446880] text-white font-semibold rounded-full transition-all hover:scale-105 shadow-lg">
+          加入我們
+        </a>
+        <a href="/about/origin"
+          class="px-8 py-3 border-2 border-white text-white hover:bg-white hover:text-[#1a56a0] font-semibold rounded-full transition-all">
+          了解計畫
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="bg-[#1a56a0] text-white py-12">
+    <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      {stats.map(s => (
+        <div>
+          <div class="text-4xl md:text-5xl font-bold text-orange-300">{s.number}</div>
+          <div class="mt-1 text-sm text-blue-100">{s.label}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- 關於計畫 -->
+  <section class="py-20 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-[#1a56a0] text-sm font-semibold uppercase tracking-widest mb-3">About</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">關於計畫</h2>
+      <p class="text-gray-600 text-lg leading-relaxed">
+        文藻外語大學以多國語、翻譯等專業特色，透過教育部「大學社會責任實踐計畫」成立多國語國際醫療翻譯志工隊，進駐區域大型醫院，共創外籍人士、新住民及移工就醫無障礙（SDGs 3），並服務外國弱勢孩童提升教育素養（SDGs 4）。
+      </p>
+      <a href="/about/origin"
+        class="inline-block mt-8 px-8 py-3 bg-[#1a56a0] text-white font-semibold rounded-full hover:bg-blue-800 transition-colors">
+        計畫緣起
+      </a>
+    </div>
+  </section>
+
+  <!-- 最新活動 -->
+  <section class="py-16 px-4 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <p class="text-[#1a56a0] text-sm font-semibold uppercase tracking-widest mb-3">Activities</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">最新活動</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {activities.map(act => (
+          <a href={act.href}
+            class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img
+                src={act.image}
+                alt={act.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="p-4">
+              <p class="text-xs text-gray-400 mb-1">{act.date}</p>
+              <h3 class="font-semibold text-gray-800 text-sm leading-snug mb-2 group-hover:text-[#1a56a0] transition-colors">
+                {act.title}
+              </h3>
+              <p class="text-xs text-gray-500 leading-relaxed line-clamp-3">{act.excerpt}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="/blog"
+          class="inline-block px-8 py-3 border-2 border-[#1a56a0] text-[#1a56a0] font-semibold rounded-full hover:bg-[#1a56a0] hover:text-white transition-colors">
+          查看全部活動
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

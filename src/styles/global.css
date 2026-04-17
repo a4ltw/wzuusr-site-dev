@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #1a56a0;
+  --color-accent: #f97316;
+}
+
+* {
+  font-family: 'Noto Sans TC', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

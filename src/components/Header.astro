@@ -1,0 +1,111 @@
+---
+const navItems = [
+  {
+    label: '關於計畫',
+    children: [
+      { label: '計畫緣起', href: '/about/origin' },
+      { label: '執行架構', href: '/framework' },
+      { label: '計畫團隊', href: '/team' },
+      { label: '教師社群', href: '/faculty' },
+      { label: '合作夥伴', href: '/partners' },
+    ]
+  },
+  {
+    label: '數位教材',
+    children: [
+      { label: '動畫／繪本', href: '/materials/animation' },
+      { label: '英文教材', href: '/materials/english' },
+      { label: '華文教材', href: '/materials/chinese' },
+    ]
+  },
+  {
+    label: '活動成果',
+    children: [
+      { label: '最新活動', href: '/activities' },
+      { label: '活動部落格', href: '/blog' },
+      { label: '得獎資訊', href: '/awards' },
+      { label: '媒體報導', href: '/news' },
+      { label: 'USR EXPO（中）', href: '/expo/zh' },
+      { label: 'USR EXPO（英）', href: '/expo/en' },
+    ]
+  },
+  { label: '實踐場域', href: '/fields' },
+  { label: '招生資訊', href: '/join' },
+  { label: '聯絡我們', href: '/contact' },
+];
+---
+
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2 shrink-0">
+      <div class="flex flex-col leading-tight">
+        <span class="text-[#1a56a0] font-bold text-base tracking-wide">文藻小螺絲釘</span>
+        <span class="text-gray-400 text-xs tracking-widest">WUTH</span>
+      </div>
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-1">
+      {navItems.map(item => (
+        item.children ? (
+          <div class="relative group">
+            <button class="px-3 py-2 text-sm text-gray-700 hover:text-[#1a56a0] font-medium flex items-center gap-1 transition-colors">
+              {item.label}
+              <svg class="w-3.5 h-3.5 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="absolute top-full left-0 pt-1 hidden group-hover:block">
+              <div class="bg-white rounded-lg shadow-lg border border-gray-100 py-1 min-w-36">
+                {item.children.map(child => (
+                  <a href={child.href}
+                    class="block px-4 py-2 text-sm text-gray-600 hover:text-[#1a56a0] hover:bg-blue-50 transition-colors whitespace-nowrap">
+                    {child.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <a href={item.href}
+            class="px-3 py-2 text-sm text-gray-700 hover:text-[#1a56a0] font-medium transition-colors">
+            {item.label}
+          </a>
+        )
+      ))}
+    </nav>
+
+    <!-- Mobile menu button -->
+    <button id="menu-btn" class="md:hidden p-2 rounded-md text-gray-600 hover:text-[#1a56a0]" aria-label="開啟選單">
+      <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 bg-white">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col gap-1">
+      {navItems.map(item => (
+        item.children ? (
+          <div>
+            <p class="px-3 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
+            {item.children.map(child => (
+              <a href={child.href} class="block px-6 py-1.5 text-sm text-gray-600 hover:text-[#1a56a0]">{child.label}</a>
+            ))}
+          </div>
+        ) : (
+          <a href={item.href} class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-[#1a56a0]">{item.label}</a>
+        )
+      ))}
+    </div>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+</script>
