@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+---
+<BaseLayout title="計畫緣起 — 文藻小螺絲釘 WUTH">
+  <PageHero title="計畫緣起" subtitle="Plan Origin" />
+  <div class="max-w-3xl mx-auto px-4 py-16">
+
+    <div class="text-center mb-12">
+      <p class="text-2xl font-bold text-gray-800">以科技傳遞溫暖，用愛心永續關懷</p>
+      <p class="text-[#1a56a0] mt-2 italic">Tech warms, love sustains, worldwide connection.</p>
+    </div>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-4">計畫背景</h2>
+      <p class="text-gray-600 leading-relaxed">
+        文藻外語大學以多國語、翻譯等專業特色成立多語翻譯志工隊，通過教育部「大學社會責任實踐計畫」（USR），
+        成立多國語國際醫療翻譯志工隊，進駐區域大型醫院，共創外籍人士、新住民及移工就醫無障礙。
+      </p>
+      <p class="text-gray-600 leading-relaxed mt-4">
+        計畫源起於 2013 年，主持人廖俊芳教授（Melody）在偶然機緣下認識了高雄榮民總醫院社工室的周玲玲主任，
+        得知醫院需要東南亞籍學生協助新住民病患的就醫溝通，於是組成志工團進入榮總服務。這一善念延續至今，
+        成為文藻大學正式推動的 USR 社會實踐計畫。
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-4">對接 SDGs</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-blue-50 rounded-xl p-6">
+          <p class="text-2xl mb-2">🏥</p>
+          <h3 class="font-bold text-gray-800 mb-1">SDG 3 健康與福祉</h3>
+          <p class="text-sm text-gray-600">透過多語醫療口譯服務，協助外籍人士、新住民及移工克服就醫語言障礙，確保平等的醫療照護權利。</p>
+        </div>
+        <div class="bg-orange-50 rounded-xl p-6">
+          <p class="text-2xl mb-2">📚</p>
+          <h3 class="font-bold text-gray-800 mb-1">SDG 4 優質教育</h3>
+          <p class="text-sm text-gray-600">服務外國弱勢孩童，提升教育素養，同時培育文藻學生的國際視野與服務學習能力。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-4">計畫歷程</h2>
+      <div class="space-y-3">
+        {[
+          { year: '2013', text: '廖俊芳教授與高雄榮總社工室合作，組成東南亞志工團' },
+          { year: '2016', text: '與高雄榮民總醫院正式建立合作關係' },
+          { year: '2018', text: '通過教育部 USR 計畫補助' },
+          { year: '2019', text: '擴展至小港醫院、義大醫院服務場域' },
+          { year: '2020', text: '榮獲台灣企業永續獎大學 USR 銀獎' },
+          { year: '2021', text: '榮獲《遠見雜誌》USR 楷模獎、USR EXPO 亮點故事獎' },
+          { year: '2022', text: '入選 USR EXPO，持續擴大服務影響力' },
+        ].map(item => (
+          <div class="flex gap-4 items-start">
+            <span class="shrink-0 w-12 text-sm font-bold text-[#1a56a0]">{item.year}</span>
+            <span class="text-sm text-gray-600 border-l border-gray-200 pl-4">{item.text}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <div class="flex gap-4 flex-wrap">
+      <a href="/framework" class="px-6 py-2.5 bg-[#1a56a0] text-white rounded-full text-sm font-semibold hover:bg-blue-800 transition-colors">了解執行架構</a>
+      <a href="/team" class="px-6 py-2.5 border border-[#1a56a0] text-[#1a56a0] rounded-full text-sm font-semibold hover:bg-blue-50 transition-colors">認識計畫團隊</a>
+    </div>
+  </div>
+</BaseLayout>

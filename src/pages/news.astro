@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const news = [
+  { date: '2025', media: 'Facebook', title: '2025 蚵寮 AI 永續探索營', url: 'https://www.facebook.com/share/1M2CD1uPvh/' },
+  { date: '2025', media: 'YouTube', title: '蚵寮營隊開幕影片', url: 'https://youtu.be/E_JgudXUH0k' },
+  { date: '2025', media: 'YouTube', title: '蚵寮營隊閉幕影片', url: 'https://youtu.be/Yb3AbLhPZ3E' },
+];
+
+const mediaIcons: Record<string, string> = { Facebook: '📘', YouTube: '📺', '中時': '📰', '聯合': '📰', '自由': '📰' };
+---
+<BaseLayout title="媒體報導 — 文藻小螺絲釘 WUTH">
+  <PageHero title="媒體報導" subtitle="News Report" />
+  <div class="max-w-3xl mx-auto px-4 py-16">
+
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">重要獲獎</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        {[
+          { year: '2021', text: 'USR EXPO 最佳亮點故事獎' },
+          { year: '2021', text: '遠見雜誌 USR 楷模獎' },
+          { year: '2020', text: '台灣企業永續獎大學 USR 銀獎' },
+        ].map(a => (
+          <div class="bg-gradient-to-br from-[#1a56a0] to-blue-700 text-white rounded-xl p-4 text-center">
+            <p class="text-3xl mb-2">🏆</p>
+            <p class="text-xs text-blue-200 mb-1">{a.year}</p>
+            <p class="text-sm font-semibold leading-tight">{a.text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">媒體報導精選</h2>
+      <div class="space-y-3">
+        {news.map(n => (
+          <a href={n.url} target="_blank" rel="noopener"
+            class="flex items-center gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-[#1a56a0] transition-all group">
+            <span class="text-2xl">{mediaIcons[n.media] ?? '📄'}</span>
+            <div class="flex-1 min-w-0">
+              <p class="text-xs text-gray-400 mb-0.5">{n.date} ・ {n.media}</p>
+              <p class="text-sm font-semibold text-gray-800 group-hover:text-[#1a56a0] transition-colors truncate">{n.title}</p>
+            </div>
+            <span class="text-gray-300 group-hover:text-[#1a56a0] transition-colors shrink-0">→</span>
+          </a>
+        ))}
+      </div>
+      <p class="text-xs text-gray-400 text-center mt-6">更多報導持續整理中</p>
+    </section>
+  </div>
+</BaseLayout>

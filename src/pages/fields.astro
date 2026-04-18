@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const categories = [
+  {
+    label: '🏥 醫療場域',
+    fields: [
+      { name: '義大醫院', since: '2019/09', img: '' },
+      { name: '高雄榮民總醫院', since: '2016/10', img: '' },
+      { name: '高雄市立小港醫院', since: '2019/03', img: '' },
+    ]
+  },
+  {
+    label: '🏫 教育場域',
+    fields: [
+      { name: '蚵寮國中小', since: '', img: '' },
+      { name: '旗山國小', since: '', img: '' },
+      { name: '立德國中', since: '', img: '' },
+    ]
+  },
+  {
+    label: '🌍 國際場域',
+    fields: [
+      { name: 'Cambodia Green Umbrella KKS', since: '', img: '' },
+      { name: '馬來西亞 Sarawak', since: '', img: '' },
+      { name: 'Vietnam Operation Smile', since: '', img: '' },
+      { name: '尼泊爾 Nepal', since: '', img: '' },
+    ]
+  },
+  {
+    label: '🏭 產業場域',
+    fields: [
+      { name: '前鎮加工區 — 瑞儀光電', since: '', img: '' },
+      { name: '安平工業區 — 黑橋牌企業', since: '', img: '' },
+    ]
+  },
+];
+---
+<BaseLayout title="實踐場域 — 文藻小螺絲釘 WUTH">
+  <PageHero title="實踐場域" subtitle="Practice Fields" />
+  <div class="max-w-5xl mx-auto px-4 py-16">
+
+    {categories.map(cat => (
+      <section class="mb-12">
+        <h2 class="text-lg font-bold text-gray-700 mb-4">{cat.label}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {cat.fields.map(f => (
+            <div class="bg-gray-100 rounded-xl overflow-hidden aspect-square relative group">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3">
+                <p class="text-white text-sm font-semibold leading-tight">{f.name}</p>
+                {f.since && <p class="text-gray-300 text-xs">合作自 {f.since}</p>}
+              </div>
+              <!-- placeholder icon -->
+              <div class="w-full h-full flex items-center justify-center text-4xl text-gray-400">📍</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <div class="text-center mt-8">
+      <a href="/join" class="inline-block px-8 py-3 bg-[#1a56a0] text-white font-semibold rounded-full hover:bg-blue-800 transition-colors">
+        加入志工服務
+      </a>
+    </div>
+  </div>
+</BaseLayout>

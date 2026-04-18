@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const awards = [
+  {
+    year: '2021',
+    title: 'USR EXPO 最佳亮點故事獎',
+    category: '社會關懷組',
+    desc: '從 204 件參賽計畫故事中脫穎而出，最終進入 36 件亮點故事，榮獲「社會關懷」組亮點故事獎。',
+    url: 'https://tinyurl.com/yb6wj3c3',
+  },
+  {
+    year: '2021',
+    title: '遠見雜誌 USR 楷模獎',
+    category: '福祉共生組',
+    desc: '《遠見》高標評鑑 USR 142 件參賽方案，獲獎率僅 11.2%。以外語優勢鎖定新住民和移工就醫語言問題，榮獲楷模獎。',
+    url: 'https://csr.gvm.com.tw/2021/winner.html',
+  },
+  {
+    year: '2020',
+    title: '台灣企業永續獎 大學 USR 銀獎',
+    category: '第 13 屆',
+    desc: '榮獲第 13 屆台灣企業永續獎大學 USR 永續方案獎銀獎，感謝所有核心主持團隊的老師們。',
+    url: 'https://tcsaward.org.tw/tw/news/index/231',
+  },
+  {
+    year: '2020',
+    title: 'USR EXPO 微電影入圍',
+    category: '',
+    desc: '全國 217 個計畫中入圍微電影競賽，以「溫暖白色巨塔的小螺絲釘」為主題呈現服務成果。',
+    url: '',
+  },
+];
+---
+<BaseLayout title="得獎資訊 — 文藻小螺絲釘 WUTH">
+  <PageHero title="得獎資訊" subtitle="Awards" />
+  <div class="max-w-3xl mx-auto px-4 py-16">
+    <div class="space-y-6">
+      {awards.map(a => (
+        <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
+          <div class="flex items-start justify-between gap-4 mb-3">
+            <div>
+              <span class="inline-block text-xs font-semibold bg-orange-100 text-orange-600 rounded-full px-3 py-0.5 mb-2">{a.year} {a.category}</span>
+              <h3 class="font-bold text-gray-800 text-lg">{a.title}</h3>
+            </div>
+            <span class="text-3xl shrink-0">🏆</span>
+          </div>
+          <p class="text-sm text-gray-500 leading-relaxed mb-3">{a.desc}</p>
+          {a.url && (
+            <a href={a.url} target="_blank" rel="noopener" class="text-xs text-[#1a56a0] hover:underline">詳細資料 →</a>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

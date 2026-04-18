@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const medical = [
+  { name: '高雄榮民總醫院', since: '2016/10', desc: '與文藻僅隔幾條路有「鄰居」之稱，開啟多語醫療口譯志工服務的第一篇章。', url: 'https://www.vghks.gov.tw/' },
+  { name: '高雄市立小港醫院', since: '2019/03', desc: '「不凡的港醫」，攜手建立志工服務，共創就醫無障礙。', url: 'https://www.kmhk.org.tw/' },
+  { name: '義大醫院', since: '2019/09', desc: '五星級醫院，共同開創溫馨志工服務，持續深化醫病語言橋樑。', url: 'https://www.edah.org.tw/' },
+  { name: '高雄醫學大學', since: '', desc: '跨校合作，結合醫學專業與外語能力，共同推動國際醫療志工服務。', url: '' },
+];
+
+const education = [
+  { name: '旗山國小', since: '2019/09', desc: '共創具熱情及溫暖的英語衛教營隊，讓外語教育走入偏鄉。' },
+  { name: '立德國中', since: '', desc: '推動雙語教學與在地文化教育，讓學生拓展國際視野。' },
+  { name: '蚵寮國中小', since: '', desc: '深耕高雄蚵寮地區，結合在地漁村文化推動英語與永續教育。' },
+  { name: '慈惠善導書院', since: '', desc: '共同推動偏鄉教育支持，培育在地文化傳承。' },
+];
+
+const international = [
+  { name: 'Cambodia Green Umbrella KKS', since: '2019/01', desc: '國際非營利組織，共同展開柬埔寨國際志工服務，受益更多當地孩童。' },
+  { name: 'GlobeMed at University of Michigan', since: '2020/03', desc: '在柬埔寨服務中結識的志同道合夥伴，共同推動跨國界的國際服務。' },
+];
+---
+<BaseLayout title="合作夥伴 — 文藻小螺絲釘 WUTH">
+  <PageHero title="合作夥伴" subtitle="Partners" />
+  <div class="max-w-5xl mx-auto px-4 py-16">
+
+    <!-- 醫療夥伴 -->
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">🏥 醫療夥伴</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {medical.map(p => (
+          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <h3 class="font-bold text-gray-800">{p.name}</h3>
+              {p.since && <span class="text-xs text-gray-400 shrink-0 ml-2">合作自 {p.since}</span>}
+            </div>
+            <p class="text-sm text-gray-500 leading-relaxed mb-3">{p.desc}</p>
+            {p.url && (
+              <a href={p.url} target="_blank" rel="noopener"
+                class="text-xs text-[#1a56a0] hover:underline">官方網站 →</a>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- 教育夥伴 -->
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">🏫 教育夥伴</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {education.map(p => (
+          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <h3 class="font-bold text-gray-800">{p.name}</h3>
+              {p.since && <span class="text-xs text-gray-400 shrink-0 ml-2">合作自 {p.since}</span>}
+            </div>
+            <p class="text-sm text-gray-500 leading-relaxed">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- 國際夥伴 -->
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">🌍 國際夥伴</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {international.map(p => (
+          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-3">
+              <h3 class="font-bold text-gray-800">{p.name}</h3>
+              {p.since && <span class="text-xs text-gray-400 shrink-0 ml-2">合作自 {p.since}</span>}
+            </div>
+            <p class="text-sm text-gray-500 leading-relaxed">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

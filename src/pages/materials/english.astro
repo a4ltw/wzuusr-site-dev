@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const sarawak = [
+  { date: '2025/04/19', teacher: '陳思羽 Sandra', topic: 'Greeting 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_fafeba52a02149c6b91001577e578acb.pdf' },
+  { date: '2025/04/19 & 04/26', teacher: '蘇亭瑜 Ting Yu', topic: 'Greeting 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_08b086540ab549a2b077893a9ba88eb4.pdf' },
+  { date: '2025/05/03', teacher: '楊甯宇 Olivia', topic: 'Place 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_c4659f163ff2441cb1a04e5162cbfb4b.pdf' },
+  { date: '2025/05/03', teacher: '禤宇秀 Jessi', topic: 'Greetings 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_4495caf52d3b48d1bc591f7c97b6ddde.pdf' },
+  { date: '2025/05/10', teacher: '楊甯宇 Olivia', topic: 'Sky 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_ad77b5ecf5544cb79da355ff7c474efd.pdf' },
+  { date: '2025/05/17', teacher: '陳思羽 Sandra', topic: 'Mountain 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_780028e08b2b468cbe64479b771f3f5e.pdf' },
+  { date: '2025/05/24', teacher: '陳思羽 Sandra', topic: 'Sky 課程講義', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_ca5738ae0730438ab7ccb7c5fdf5435d.pdf' },
+];
+
+const keliao = [
+  { date: '2025/04/02', topic: 'Under the Sea', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_3b09883586e446199536ee1a0c5015c7.pdf' },
+  { date: '2025/04/09', topic: 'Ocean Protection (1)', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_9fe09297608b4d5499e41e87f2e3b4fb.pdf' },
+  { date: '2025/04/09', topic: 'Ocean Protection (2)', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_8b56918a60434c9aa5677e74ece372ba.pdf' },
+  { date: '2025/04/30', topic: 'The Sea Turtle', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_b63d2852b9d746148ec8390bfa2d9b78.pptx' },
+  { date: '2025/05/07', topic: 'Ocean Protection', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_8a9dd42ccda84e578b03ad45c188d151.pptx' },
+  { date: '2025/05/14', topic: 'Save the Sea Animals', url: 'https://1b3dc8e9-cde2-4647-9bfa-19f926dea93c.filesusr.com/ugd/10e09e_1396d64058d84560a4d6ddc6a0ded5d1.pdf' },
+];
+---
+<BaseLayout title="英文教材 — 文藻小螺絲釘 WUTH">
+  <PageHero title="英文教材" subtitle="English Materials" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">
+        馬來西亞沙勞越教材專區
+        <span class="text-sm font-normal text-gray-400 ml-2">Sarawak, Malaysia</span>
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-gray-50 text-left">
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tl-lg">日期</th>
+              <th class="px-4 py-3 text-gray-500 font-medium">教師</th>
+              <th class="px-4 py-3 text-gray-500 font-medium">主題</th>
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tr-lg">下載</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sarawak.map((r, i) => (
+              <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}>
+                <td class="px-4 py-3 text-gray-500 whitespace-nowrap">{r.date}</td>
+                <td class="px-4 py-3 text-gray-700">{r.teacher}</td>
+                <td class="px-4 py-3 text-gray-700">{r.topic}</td>
+                <td class="px-4 py-3">
+                  <a href={r.url} target="_blank" rel="noopener"
+                    class="inline-block px-3 py-1 bg-[#1a56a0] text-white text-xs rounded-full hover:bg-blue-800 transition-colors">
+                    下載
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">
+        高雄市蚵寮國小教材專區
+        <span class="text-sm font-normal text-gray-400 ml-2">海洋英文主題</span>
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-gray-50 text-left">
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tl-lg">日期</th>
+              <th class="px-4 py-3 text-gray-500 font-medium">課程名稱</th>
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tr-lg">下載</th>
+            </tr>
+          </thead>
+          <tbody>
+            {keliao.map((r, i) => (
+              <tr class={i % 2 === 0 ? 'bg-white' : 'bg-gray-50/50'}>
+                <td class="px-4 py-3 text-gray-500 whitespace-nowrap">{r.date}</td>
+                <td class="px-4 py-3 text-gray-700">{r.topic}</td>
+                <td class="px-4 py-3">
+                  <a href={r.url} target="_blank" rel="noopener"
+                    class="inline-block px-3 py-1 bg-[#1a56a0] text-white text-xs rounded-full hover:bg-blue-800 transition-colors">
+                    下載
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

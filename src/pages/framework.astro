@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const axes = [
+  { num: '1', title: '國際醫療志工服務', desc: '結合外語專業，提供醫療場域口譯服務，協助外籍人士、新住民及移工就醫無障礙。' },
+  { num: '2', title: '國際教育服務', desc: '透過線上英文陪伴課程，服務偏鄉學童及海外弱勢孩童，提升教育素養。' },
+  { num: '3', title: '永續發展教育', desc: '推動 AI 與永續發展主題營隊，培養學生跨域能力與社會關懷意識。' },
+  { num: '4', title: '數位教材開發', desc: '製作雙語繪本動畫、英文教材等數位資源，擴大教育影響力。' },
+];
+
+const strategies = [
+  { label: '跨域合作', desc: '整合校內 7 個系所中心、10+ 位教師共同開課' },
+  { label: '場域實踐', desc: '進駐義大醫院、高榮、小港醫院等醫療場域' },
+  { label: '國際連結', desc: '與柬埔寨、馬來西亞等地建立服務學習夥伴關係' },
+  { label: '在地深耕', desc: '服務高雄蚵寮地區國中小學童' },
+  { label: '數位創新', desc: '運用 AI 工具融入課程與服務' },
+  { label: '永續經營', desc: '建立志工培訓系統，確保服務品質與傳承' },
+  { label: '成果擴散', desc: '透過媒體報導、競賽獲獎擴大社會影響力' },
+];
+---
+<BaseLayout title="執行架構 — 文藻小螺絲釘 WUTH">
+  <PageHero title="執行架構" subtitle="Framework" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">四大主軸</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {axes.map(a => (
+          <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-8 h-8 rounded-full bg-[#1a56a0] text-white flex items-center justify-center text-sm font-bold mb-3">{a.num}</div>
+            <h3 class="font-bold text-gray-800 mb-2">{a.title}</h3>
+            <p class="text-sm text-gray-500 leading-relaxed">{a.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">七大執行策略</h2>
+      <div class="space-y-3">
+        {strategies.map((s, i) => (
+          <div class="flex gap-4 items-start bg-gray-50 rounded-lg px-4 py-3">
+            <span class="shrink-0 text-xs font-bold text-white bg-[#1a56a0] rounded-full w-6 h-6 flex items-center justify-center">{i + 1}</span>
+            <div>
+              <span class="font-semibold text-gray-800 text-sm">{s.label}</span>
+              <span class="text-gray-500 text-sm ml-2">— {s.desc}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="bg-[#1a56a0] text-white rounded-2xl p-8 text-center">
+      <p class="text-lg font-bold mb-1">核心使命</p>
+      <p class="text-blue-100">以科技傳遞溫暖，用愛心永續關懷。</p>
+      <p class="text-blue-200 text-sm mt-1 italic">Tech warms, love sustains, worldwide connection.</p>
+    </section>
+  </div>
+</BaseLayout>

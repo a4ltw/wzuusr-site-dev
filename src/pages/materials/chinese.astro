@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const materials = [
+  { date: '2025/08/25 & 08/27', teacher: '劉榮莉 老師', topic: '《小芳上學》課程講義', url: '' },
+];
+---
+<BaseLayout title="華文教材 — 文藻小螺絲釘 WUTH">
+  <PageHero title="華文教材" subtitle="Mandarin Materials" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">
+        華語課程教材區
+        <span class="text-sm font-normal text-gray-400 ml-2">Mandarin Materials of Online Education</span>
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-gray-50 text-left">
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tl-lg">日期</th>
+              <th class="px-4 py-3 text-gray-500 font-medium">教師</th>
+              <th class="px-4 py-3 text-gray-500 font-medium">主題</th>
+              <th class="px-4 py-3 text-gray-500 font-medium rounded-tr-lg">下載</th>
+            </tr>
+          </thead>
+          <tbody>
+            {materials.map(r => (
+              <tr class="bg-white">
+                <td class="px-4 py-3 text-gray-500 whitespace-nowrap">{r.date}</td>
+                <td class="px-4 py-3 text-gray-700">{r.teacher}</td>
+                <td class="px-4 py-3 text-gray-700">{r.topic}</td>
+                <td class="px-4 py-3">
+                  {r.url ? (
+                    <a href={r.url} target="_blank" rel="noopener"
+                      class="inline-block px-3 py-1 bg-[#1a56a0] text-white text-xs rounded-full">下載</a>
+                  ) : (
+                    <span class="text-xs text-gray-400">連結準備中</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-gray-400 mt-4 text-center">更多教材陸續上架中</p>
+    </section>
+  </div>
+</BaseLayout>

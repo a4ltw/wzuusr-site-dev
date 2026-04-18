@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const domains = [
+  { icon: '🌐', title: '翻譯與口譯', desc: '培訓多語口譯志工，提供醫療場域的語言服務支援。' },
+  { icon: '🤝', title: '跨文化溝通', desc: '教導跨文化理解與溝通技巧，提升服務品質。' },
+  { icon: '🌍', title: '國際服務學習', desc: '規劃國際服務實踐，連結在地與國際需求。' },
+  { icon: '📖', title: '繪本創作', desc: '指導雙語繪本製作，傳遞衛教與文化知識。' },
+  { icon: '💻', title: 'AI 與數位創新', desc: '運用 AI 工具融入課程，培養學生數位能力。' },
+  { icon: '🏥', title: '醫療服務學習', desc: '與醫院合作，深化學生的醫療場域實習經驗。' },
+];
+
+const recent = [
+  { date: '113/06/10', title: '《跨文化的呼召——從砂勞越啟程通往南洋》', speaker: '乎南・笛伴牧師 / 芥菜種會 陳芃年資深主任', location: 'Z507' },
+  { date: '113/04/29', title: '永續傳善：讓永續教育更有趣、更實踐！', speaker: '得勝者教育協會 沈錦秀主任 / 張雅婷組長', location: 'Z1211' },
+  { date: '113/03/18', title: '與 AI 共創學習體驗', speaker: '均一平台 莊哲銘（課程體驗設計專案經理）', location: 'Z1211' },
+];
+---
+<BaseLayout title="教師社群 — 文藻小螺絲釘 WUTH">
+  <PageHero title="教師社群" subtitle="Faculty Community" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <section class="mb-12 text-center">
+      <p class="text-gray-600 leading-relaxed max-w-2xl mx-auto">
+        本計畫涵蓋 <strong>7 個系所中心</strong>、<strong>11 位教師</strong>跨領域合作，
+        感謝長期以來各位老師們的熱情參與和全力相挺！
+        107 至 109 年 3 年間，教師社群共安排了 <strong>31 場次活動</strong>。
+      </p>
+    </section>
+
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">跨領域專業領域</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        {domains.map(d => (
+          <div class="bg-gray-50 rounded-xl p-4 text-center">
+            <p class="text-2xl mb-2">{d.icon}</p>
+            <h3 class="font-semibold text-gray-800 text-sm mb-1">{d.title}</h3>
+            <p class="text-xs text-gray-500 leading-relaxed">{d.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">113 學年第 2 學期 活動紀錄</h2>
+      <div class="space-y-4">
+        {recent.map((r, i) => (
+          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm flex gap-4 items-start">
+            <div class="shrink-0 w-8 h-8 rounded-full bg-[#1a56a0] text-white flex items-center justify-center text-sm font-bold">{i + 1}</div>
+            <div>
+              <p class="text-xs text-gray-400 mb-0.5">{r.date} ・ {r.location}</p>
+              <h3 class="font-semibold text-gray-800 text-sm mb-1">{r.title}</h3>
+              <p class="text-xs text-gray-500">講者：{r.speaker}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

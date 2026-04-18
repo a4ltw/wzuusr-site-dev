@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+
+const categories = [
+  { title: '動畫／繪本', desc: '文藻師生共同創作的雙語繪本動畫，結合環保議題與語言學習。', href: '/materials/animation', icon: '🎬' },
+  { title: '英文教材', desc: '為柬埔寨、馬來西亞等服務場域設計的英語教學講義與教案。', href: '/materials/english', icon: '📚' },
+  { title: '華文教材', desc: '為海外學童設計的華語學習教材，涵蓋課程講義與教案。', href: '/materials/chinese', icon: '🈶' },
+];
+---
+<BaseLayout title="數位教材 — 文藻小螺絲釘 WUTH">
+  <PageHero title="數位教材" subtitle="Digital Instructional Materials" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {categories.map(c => (
+        <a href={c.href}
+          class="group bg-white border border-gray-100 rounded-2xl p-8 shadow-sm hover:shadow-md hover:border-[#1a56a0] transition-all text-center">
+          <p class="text-5xl mb-4">{c.icon}</p>
+          <h3 class="font-bold text-gray-800 text-lg mb-2 group-hover:text-[#1a56a0] transition-colors">{c.title}</h3>
+          <p class="text-sm text-gray-500 leading-relaxed">{c.desc}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

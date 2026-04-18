@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+---
+<BaseLayout title="聯絡我們 — 文藻小螺絲釘 WUTH">
+  <PageHero title="聯絡我們" subtitle="Contact Us" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+      <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm text-center">
+        <p class="text-3xl mb-3">📍</p>
+        <h3 class="font-bold text-gray-800 mb-2">辦公室位置</h3>
+        <p class="text-sm text-gray-500 leading-relaxed">文藻外語大學<br/>807 高雄市民族一路 900 號</p>
+      </div>
+      <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm text-center">
+        <p class="text-3xl mb-3">📞</p>
+        <h3 class="font-bold text-gray-800 mb-2">電話聯繫</h3>
+        <p class="text-sm text-gray-500">07-342-6031 #6208</p>
+        <p class="text-xs text-gray-400 mt-1">週一至週五 9:00–17:00</p>
+      </div>
+      <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm text-center">
+        <p class="text-3xl mb-3">💬</p>
+        <h3 class="font-bold text-gray-800 mb-2">社群媒體</h3>
+        <div class="flex justify-center gap-3 mt-2">
+          <a href="https://fb.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">Facebook</a>
+          <a href="https://ig.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">Instagram</a>
+          <a href="https://yt.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">YouTube</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">交通資訊</h2>
+      <div class="rounded-2xl overflow-hidden shadow-sm">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.86!2d120.30294!3d22.65732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04e70dbf9a4f%3A0x1a1de630d3bd70b6!2z5paH6JeP5aSW6Kqe5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1"
+          width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"
+          title="文藻外語大學地圖">
+        </iframe>
+      </div>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+        <div class="bg-gray-50 rounded-xl p-4">
+          <p class="font-semibold text-gray-700 mb-1">🚇 捷運</p>
+          <p class="text-gray-500">高雄捷運紅線「後驛站」，步行約 10 分鐘。</p>
+        </div>
+        <div class="bg-gray-50 rounded-xl p-4">
+          <p class="font-semibold text-gray-700 mb-1">🚌 公車</p>
+          <p class="text-gray-500">紅27、紅28、紅29、72、76、77，於「文藻外語大學」站下車。</p>
+        </div>
+        <div class="bg-gray-50 rounded-xl p-4">
+          <p class="font-semibold text-gray-700 mb-1">🚗 開車</p>
+          <p class="text-gray-500">國道一號高雄交流道下，沿民族路北行約 10 分鐘。校內設有訪客停車場。</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const videos = [
+  { title: '2025 蚵寮 AI 永續探索營 — 蚵生感言', url: 'https://reurl.cc/ekv3Ax' },
+  { title: '線上英文陪伴 — 蚵寮啟航與完美收航', url: 'https://reurl.cc/Om7AoX' },
+  { title: '歡樂收割日 — 期末慶祝大會', url: 'https://reurl.cc/ax04oG' },
+  { title: '大海裡的家 — 動態繪本（師生作品）', url: 'https://reurl.cc/rYd6ME' },
+  { title: '寄居蟹的時尚災難 — 動畫影片', url: 'https://reurl.cc/RknyAz' },
+];
+---
+<BaseLayout title="招生資訊 — 文藻小螺絲釘 WUTH">
+  <PageHero title="招生資訊" subtitle="Join Us" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <!-- Hero call -->
+    <div class="bg-gradient-to-br from-[#1a56a0] to-blue-700 text-white rounded-2xl p-8 text-center mb-12">
+      <h2 class="text-2xl font-bold mb-2">文藻螺絲釘 鏈結世界心</h2>
+      <p class="text-blue-100 text-lg mb-1">114-2 🔥 火熱開課</p>
+      <p class="text-blue-200 text-sm">AI + 服務領導 = 全面提升競爭力！</p>
+    </div>
+
+    <!-- 課程資訊 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">課程資訊</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm text-center">
+          <p class="text-3xl mb-2">📚</p>
+          <h3 class="font-bold text-gray-800 mb-1">深碗課程</h3>
+          <p class="text-2xl font-bold text-[#1a56a0]">4 學分</p>
+          <p class="text-xs text-gray-400 mt-1">選課代碼：1030</p>
+        </div>
+        <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm text-center">
+          <p class="text-3xl mb-2">🌱</p>
+          <h3 class="font-bold text-gray-800 mb-1">微型課程</h3>
+          <p class="text-2xl font-bold text-[#1a56a0]">1 學分</p>
+          <p class="text-xs text-gray-400 mt-1">選課代碼：1034</p>
+        </div>
+      </div>
+      <div class="bg-orange-50 border border-orange-100 rounded-xl p-4 text-sm text-orange-700">
+        📅 第二學期初選選課：2025.12.30 — 2026.01.02
+      </div>
+    </section>
+
+    <!-- 課程特色 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">課程特色</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {[
+          '培養跨域能力，成為全方位人才',
+          '結合 AI 與服務學習，掌握未來技能',
+          '聚焦永續營隊、國際志工、醫院志工',
+          '做中學，累積真實服務與實務經驗',
+          '邁向世界公民之路！',
+        ].map(f => (
+          <div class="flex items-start gap-3 bg-gray-50 rounded-xl px-4 py-3">
+            <span class="text-green-500 font-bold shrink-0">✓</span>
+            <span class="text-sm text-gray-700">{f}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- 報名 -->
+    <section class="mb-12 text-center">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6 text-left">課程報名</h2>
+      <a href="https://join.wzuusr.org/" target="_blank" rel="noopener"
+        class="inline-block px-10 py-4 bg-[#1a56a0] text-white text-lg font-bold rounded-full hover:bg-blue-800 transition-colors shadow-lg hover:shadow-xl">
+        立即報名 →
+      </a>
+      <p class="text-xs text-gray-400 mt-3">join.wzuusr.org</p>
+    </section>
+
+    <!-- 影片 -->
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">走過的路 — 影片分享</h2>
+      <div class="space-y-3">
+        {videos.map(v => (
+          <a href={v.url} target="_blank" rel="noopener"
+            class="flex items-center gap-3 bg-white border border-gray-100 rounded-xl px-5 py-3 shadow-sm hover:shadow-md hover:border-red-200 transition-all group">
+            <span class="text-xl shrink-0">▶️</span>
+            <span class="text-sm text-gray-700 group-hover:text-[#1a56a0] transition-colors">{v.title}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

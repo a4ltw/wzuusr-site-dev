@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+
+const members = [
+  {
+    role: '計畫總主持人',
+    name: '廖俊芳 Melody Liao',
+    image: '/images/team/melody.jpg',
+    current: '文藻外語大學 應用華語文系',
+    bio: '曾有 13 年任職於國際外商銀行及證券業實務工作經驗，先後任職於美國運通、花旗銀行、匯豐銀行與渣打銀行等。現任 LCCI 國際證照輔導老師，多次獲得優良導師獎、產學合作研究傑出獎及 2020 台灣企業永續獎大學 USR 銀獎。',
+    bioEn: 'Thirteen years of professional experience in international banks including American Express, Citibank, HSBC, and Standard Chartered Bank. Recipient of the 13th Taiwan Corporate Sustainability Awards for USR Project in 2020.',
+  },
+  {
+    role: '共同主持人',
+    name: '蔡清華',
+    image: '',
+    current: '文藻外語大學 外語教學系副教授',
+    edu: '國立政治大學教育研究所博士',
+    spec: '比較教育、師範教育、教育政策、高等教育',
+  },
+  {
+    role: '共同主持人',
+    name: '藍美華 Emma Lan',
+    image: '',
+    current: '文藻外語大學 外語教學系副教授',
+    edu: '高雄師範大學英文系博士',
+    spec: '語言教學法、第二外語習得、英語教師培訓',
+  },
+  {
+    role: '協同主持人',
+    name: '林虹秀 Eileen Lin',
+    image: '',
+    current: '文藻外語大學 東南亞碩士學位學程教授',
+    edu: '天主教輔仁大學跨文化研究所比較文學博士',
+    spec: '跨文化研究、翻譯研究、口筆譯實務與教學',
+  },
+];
+---
+<BaseLayout title="計畫團隊 — 文藻小螺絲釘 WUTH">
+  <PageHero title="計畫團隊" subtitle="Project Team" />
+  <div class="max-w-4xl mx-auto px-4 py-16">
+
+    <!-- PI -->
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-8">計畫總主持人</h2>
+      <div class="bg-white border border-gray-100 rounded-2xl shadow-sm overflow-hidden md:flex">
+        <div class="md:w-48 h-48 md:h-auto bg-gray-100 shrink-0 flex items-center justify-center">
+          <span class="text-5xl">👩‍🏫</span>
+        </div>
+        <div class="p-6">
+          <p class="text-xs text-[#1a56a0] font-semibold uppercase tracking-wider mb-1">計畫總主持人</p>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">廖俊芳 Melody, Jun-Fang, Liao</h3>
+          <p class="text-sm text-gray-500 leading-relaxed mb-3">{members[0].bio}</p>
+          <p class="text-sm text-gray-400 italic leading-relaxed">{members[0].bioEn}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Co-PIs -->
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-8">共同主持人 / 協同主持人</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {members.slice(1).map(m => (
+          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm">
+            <p class="text-xs text-[#1a56a0] font-semibold mb-1">{m.role}</p>
+            <h3 class="font-bold text-gray-800 mb-3">{m.name}</h3>
+            <div class="space-y-1 text-sm text-gray-500">
+              <p>📍 {m.current}</p>
+              {m.edu && <p>🎓 {m.edu}</p>}
+              {m.spec && <p>💡 {m.spec}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <p class="text-sm text-gray-400 text-center">完整團隊成員資訊持續更新中</p>
+  </div>
+</BaseLayout>
