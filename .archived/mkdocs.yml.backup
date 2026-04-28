@@ -1,0 +1,30 @@
+site_name: 文藻小螺絲釘 WUTH USR 計畫
+site_author: WZU USR Team
+site_description: 以科技傳遞溫暖，用愛心永續關懷。
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: blue
+    accent: light-blue
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - '首頁': 'index.md'
+  - '計畫團隊': 'team.md'
+  - '執行架構': 'framework.md'
+  - '數位教材':
+    - '總覽': 'materials/index.md'
+    - '動畫/繪本': 'materials/animation.md'
+    - '英文教材': 'materials/english.md'
+    - '華文教材': 'materials/chinese.md'
+  - '活動紀錄': 'activities.md'
+  - '得獎資訊': 'awards.md'
+  - '實踐場域': 'fields.md'
+  - '媒體報導': 'news.md'
+  - '報名': 'enroll/index.md'

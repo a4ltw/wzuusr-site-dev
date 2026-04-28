@@ -53,6 +53,178 @@
   --usr-card-bg: #ffffff;
 }
 
+/* === 白色 Header === */
+.md-header {
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.md-header__button,
+.md-header__title {
+  color: #333333;
+}
+
+.md-header__button:hover {
+  color: #000000;
+  opacity: 1;
+}
+
+.md-header__topic {
+  color: #333333;
+}
+
+/* Search bar in white header */
+.md-search__input {
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+.md-search__input::placeholder {
+  color: #888888;
+}
+
+/* === 白色導航列（Tabs） === */
+.md-tabs {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.md-tabs__link {
+  color: #555555;
+  opacity: 1;
+  font-size: 0.85rem;
+}
+
+.md-tabs__link:hover {
+  color: #111111;
+  opacity: 1;
+}
+
+.md-tabs__link--active {
+  color: #111111;
+  font-weight: 600;
+}
+
+.md-tabs__indicator {
+  background-color: #2196F3;
+  height: 2px;
+}
+
+/* === 膠囊形按鈕 === */
+.md-button {
+  border-radius: 50px !important;
+  padding-left: 1.4em !important;
+  padding-right: 1.4em !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* === 字間距標題 utility class === */
+.spaced-title {
+  letter-spacing: 0.25em;
+  font-weight: 700;
+}
+
+/* === 深色背景 Section === */
+.dark-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('../assets/images/events/409f02_4bb915aa6_dc829340.jpg') center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 32px;
+  margin: 48px -1rem;
+  border-radius: 0;
+}
+
+.dark-section h2,
+.dark-section h3 {
+  color: #ffffff;
+  border-bottom: none;
+  letter-spacing: 0.3em;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.dark-section p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+}
+
+.dark-section .md-button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.dark-section .md-button:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* === 三欄照片 + 文字版型 === */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 32px 0;
+}
+
+.photo-grid-item {
+  text-align: center;
+}
+
+.photo-grid-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 16px;
+}
+
+.photo-grid-item h3 {
+  font-size: 1.2rem;
+  margin: 12px 0 8px;
+  color: #333333;
+  border: none;
+}
+
+.photo-grid-item p {
+  font-size: 0.92rem;
+  color: #555555;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === 嵌入影片容器 === */
+.video-wrapper {
+  max-width: 680px;
+  margin: 32px auto;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  border: none;
+}
+
+.video-caption {
+  text-align: center;
+  color: #666666;
+  font-size: 0.9rem;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
 /* === 全域改進 === */
 .md-content {
   font-size: 16px;
