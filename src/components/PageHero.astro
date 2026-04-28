@@ -4,7 +4,7 @@ interface Props {
   subtitle?: string;
   image?: string;
 }
-const { title, subtitle, image = '/images/hero.jpg' } = Astro.props;
+const { title, subtitle, image = '/images/hero/hero-main.avif' } = Astro.props;
 ---
 <section class="relative h-56 md:h-72 flex items-center justify-center text-center overflow-hidden">
   <img src={image} alt={title} class="absolute inset-0 w-full h-full object-cover" />

@@ -13,6 +13,7 @@ node_modules/
 __pycache__/
 temp/
 temp_todo/
+material/
 usrdocument2018.wixsite.com/
 wix_backup/
 *.pptx.pdf

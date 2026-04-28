@@ -2,15 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
 
-const members = [
-  {
-    role: '計畫總主持人',
-    name: '廖俊芳 Melody Liao',
-    image: '/images/team/melody.jpg',
-    current: '文藻外語大學 應用華語文系',
-    bio: '曾有 13 年任職於國際外商銀行及證券業實務工作經驗，先後任職於美國運通、花旗銀行、匯豐銀行與渣打銀行等。現任 LCCI 國際證照輔導老師，多次獲得優良導師獎、產學合作研究傑出獎及 2020 台灣企業永續獎大學 USR 銀獎。',
-    bioEn: 'Thirteen years of professional experience in international banks including American Express, Citibank, HSBC, and Standard Chartered Bank. Recipient of the 13th Taiwan Corporate Sustainability Awards for USR Project in 2020.',
-  },
+const coPIs = [
   {
     role: '共同主持人',
     name: '蔡清華',
@@ -22,18 +14,77 @@ const members = [
   {
     role: '共同主持人',
     name: '藍美華 Emma Lan',
-    image: '',
+    image: '/images/team/emma.avif',
     current: '文藻外語大學 外語教學系副教授',
-    edu: '高雄師範大學英文系博士',
-    spec: '語言教學法、第二外語習得、英語教師培訓',
+    edu: '高雄師範大學英文系（英語教學組）博士',
+    spec: '語言教學法、第二外語習得、英語教師培訓、英文讀寫教學',
   },
   {
     role: '協同主持人',
     name: '林虹秀 Eileen Lin',
-    image: '',
+    image: '/images/team/eileen.avif',
     current: '文藻外語大學 東南亞碩士學位學程教授',
     edu: '天主教輔仁大學跨文化研究所比較文學博士',
-    spec: '跨文化研究、翻譯研究、口筆譯實務與教學',
+    spec: '明末天主教文學翻譯、跨文化研究、翻譯研究、口筆譯實務與教學',
+  },
+  {
+    role: '協同主持人',
+    name: '周春曉',
+    image: '/images/team/zhou-chunxiao.avif',
+    current: '文藻外語大學 專任講師',
+    edu: '舊金山藝術學院 電腦藝術系 3D 動畫碩士',
+    spec: '多媒體動畫設計製作、故事腳本及分鏡、3D 動畫影片製作',
+  },
+  {
+    role: '協同主持人',
+    name: '吳紹慈',
+    image: '',
+    current: '文藻外語大學 法國語文系專任副教授',
+    edu: '國立政治大學企業管理研究所博士',
+    spec: '國際企業管理、策略管理、社會網絡與組織',
+  },
+  {
+    role: '協同主持人',
+    name: '趙靜雅',
+    image: '/images/team/zhao-jingya.avif',
+    current: '文藻外語大學 英國語文系副教授',
+    edu: '清華大學語言所博士',
+    spec: '語言學、語意學、漢語語法、社會語言學',
+  },
+  {
+    role: '協同主持人',
+    name: '王志堅 Marcus J.J. Wang',
+    image: '',
+    current: '文藻外語大學 吳甦樂教育中心副教授',
+    edu: '輔仁大學哲學博士',
+    spec: '自然法理論、吳經熊思想、宗教與法、人生哲學、法哲學',
+  },
+];
+
+const assistants = [
+  {
+    name: '王韻雯 Leona Wang',
+    image: '/images/team/leona.avif',
+    role: '專任助理',
+    current: '文藻外語大學 USR 計畫專任助理',
+  },
+  {
+    name: '陳佳彣 Teresa Chen',
+    image: '',
+    role: '學生助理',
+    current: '文藻外語大學 國際事務系',
+  },
+  {
+    name: '李世國 Amos Li',
+    image: '',
+    role: '學生助理',
+    current: '文藻外語大學 國際事務系',
+  },
+  {
+    name: '李昀庭 Anney Li',
+    image: '',
+    role: '學生助理',
+    current: '文藻外語大學 國際企業管理系',
   },
 ];
 ---
@@ -45,14 +96,20 @@ const members = [
     <section class="mb-14">
       <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-8">計畫總主持人</h2>
       <div class="bg-white border border-gray-100 rounded-2xl shadow-sm overflow-hidden md:flex">
-        <div class="md:w-48 h-48 md:h-auto bg-gray-100 shrink-0 flex items-center justify-center">
-          <span class="text-5xl">👩‍🏫</span>
+        <div class="md:w-52 md:h-auto h-52 bg-gray-100 shrink-0 overflow-hidden">
+          <img src="/images/team/melody.avif" alt="廖俊芳 Melody Liao"
+            class="w-full h-full object-cover object-top" />
         </div>
-        <div class="p-6">
-          <p class="text-xs text-[#1a56a0] font-semibold uppercase tracking-wider mb-1">計畫總主持人</p>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">廖俊芳 Melody, Jun-Fang, Liao</h3>
-          <p class="text-sm text-gray-500 leading-relaxed mb-3">{members[0].bio}</p>
-          <p class="text-sm text-gray-400 italic leading-relaxed">{members[0].bioEn}</p>
+        <div class="p-6 md:p-8">
+          <p class="text-xs text-[#1a56a0] font-semibold uppercase tracking-wider mb-1">Principal Investigator</p>
+          <h3 class="text-xl font-bold text-gray-800 mb-1">廖俊芳</h3>
+          <p class="text-sm text-[#1a56a0] mb-4">Melody, Jun-Fang, Liao</p>
+          <p class="text-sm text-gray-500 leading-relaxed mb-3">
+            曾有 13 年任職於國際外商銀行及證券業實務工作經驗，先後任職於美國運通、花旗銀行、匯豐銀行與渣打銀行等。現任 LCCI 國際證照輔導老師，多次獲得優良導師獎、產學合作研究傑出獎及 2020 台灣企業永續獎大學 USR 銀獎。
+          </p>
+          <p class="text-sm text-gray-400 italic leading-relaxed">
+            Thirteen years of professional experience in international banks including American Express, Citibank, HSBC, and Standard Chartered Bank. Recipient of the 13th Taiwan Corporate Sustainability Awards for USR Project in 2020.
+          </p>
         </div>
       </div>
     </section>
@@ -61,20 +118,47 @@ const members = [
     <section class="mb-14">
       <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-8">共同主持人 / 協同主持人</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {members.slice(1).map(m => (
-          <div class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm">
-            <p class="text-xs text-[#1a56a0] font-semibold mb-1">{m.role}</p>
-            <h3 class="font-bold text-gray-800 mb-3">{m.name}</h3>
-            <div class="space-y-1 text-sm text-gray-500">
-              <p>📍 {m.current}</p>
-              {m.edu && <p>🎓 {m.edu}</p>}
-              {m.spec && <p>💡 {m.spec}</p>}
+        {coPIs.map(m => (
+          <div class="bg-white border border-gray-100 rounded-xl shadow-sm overflow-hidden flex gap-4 p-5">
+            <div class="w-16 h-16 rounded-full bg-gray-100 shrink-0 overflow-hidden flex items-center justify-center">
+              {m.image
+                ? <img src={m.image} alt={m.name} class="w-full h-full object-cover object-top" />
+                : <span class="text-2xl text-gray-300">👤</span>
+              }
+            </div>
+            <div class="min-w-0">
+              <p class="text-xs text-[#1a56a0] font-semibold mb-0.5">{m.role}</p>
+              <h3 class="font-bold text-gray-800 mb-2 text-sm leading-snug">{m.name}</h3>
+              <div class="space-y-1 text-xs text-gray-500">
+                <p>📍 {m.current}</p>
+                {m.edu && <p>🎓 {m.edu}</p>}
+                {m.spec && <p>💡 {m.spec}</p>}
+              </div>
             </div>
           </div>
         ))}
       </div>
     </section>
 
-    <p class="text-sm text-gray-400 text-center">完整團隊成員資訊持續更新中</p>
+    <!-- Assistants -->
+    <section>
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-8">計畫助理 / 學生助理</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {assistants.map(a => (
+          <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm text-center">
+            <div class="w-16 h-16 rounded-full bg-gray-100 mx-auto mb-3 overflow-hidden flex items-center justify-center">
+              {a.image
+                ? <img src={a.image} alt={a.name} class="w-full h-full object-cover object-top" />
+                : <span class="text-2xl text-gray-300">👤</span>
+              }
+            </div>
+            <p class="text-xs text-[#1a56a0] font-semibold mb-0.5">{a.role}</p>
+            <h3 class="text-sm font-bold text-gray-800 leading-snug">{a.name}</h3>
+            <p class="text-xs text-gray-400 mt-1">{a.current}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
   </div>
 </BaseLayout>
