@@ -1,60 +1,83 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
-
-const axes = [
-  { num: '1', title: '國際醫療志工服務', desc: '結合外語專業，提供醫療場域口譯服務，協助外籍人士、新住民及移工就醫無障礙。' },
-  { num: '2', title: '國際教育服務', desc: '透過線上英文陪伴課程，服務偏鄉學童及海外弱勢孩童，提升教育素養。' },
-  { num: '3', title: '永續發展教育', desc: '推動 AI 與永續發展主題營隊，培養學生跨域能力與社會關懷意識。' },
-  { num: '4', title: '數位教材開發', desc: '製作雙語繪本動畫、英文教材等數位資源，擴大教育影響力。' },
-];
-
-const strategies = [
-  { label: '跨域合作', desc: '整合校內 7 個系所中心、10+ 位教師共同開課' },
-  { label: '場域實踐', desc: '進駐義大醫院、高榮、小港醫院等醫療場域' },
-  { label: '國際連結', desc: '與柬埔寨、馬來西亞等地建立服務學習夥伴關係' },
-  { label: '在地深耕', desc: '服務高雄蚵寮地區國中小學童' },
-  { label: '數位創新', desc: '運用 AI 工具融入課程與服務' },
-  { label: '永續經營', desc: '建立志工培訓系統，確保服務品質與傳承' },
-  { label: '成果擴散', desc: '透過媒體報導、競賽獲獎擴大社會影響力' },
-];
 ---
 <BaseLayout title="執行架構 — 文藻小螺絲釘 WUTH">
   <PageHero title="執行架構" subtitle="Framework" />
   <div class="max-w-4xl mx-auto px-4 py-16">
 
-    <section class="mb-14">
-      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">四大主軸</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {axes.map(a => (
-          <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-            <div class="w-8 h-8 rounded-full bg-[#1a56a0] text-white flex items-center justify-center text-sm font-bold mb-3">{a.num}</div>
-            <h3 class="font-bold text-gray-800 mb-2">{a.title}</h3>
-            <p class="text-sm text-gray-500 leading-relaxed">{a.desc}</p>
-          </div>
-        ))}
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">計畫執行架構及推動組織</h2>
+      <div class="text-gray-600 leading-relaxed space-y-4 text-[15px]">
+        <p>
+          本計畫團隊是以任務編組的方式成立，並以「文藻國際志工 USR」教師社群的方式運作，參與的文藻老師包括英文系、外語教學系、英語教學中心和翻譯系暨多國語複譯所（國際文教暨涉外事務學院），通識教育中心（吳甦樂人文教育學院），應用華語文系、國企管系、數位系（新媒體暨管理學院）以及東南亞學程（歐亞語文學院），涵蓋本校四個學院，同時還有國立中山大學西灣學院／服務學習組及高雄醫學大學／醫學社會學系及高榮、義大醫院、高雄市社會局和柬埔寨 Green Umbrella。
+        </p>
+        <p>
+          若蒙補助得以繼續萌芽，第二期計畫並將新增國立台東大學、高雄市立小港醫院以及國際服務合作場域夥伴——包括美國 University of Michigan 及越南 Operation Smile。本計畫跨域／跨界／跨校執行團隊計畫核心團隊含 1 名計畫主持人、2 位共同主持人及 5 位協同主持人，以及 1 名專案助理與 1 名合聘的專案經理人。
+        </p>
       </div>
     </section>
 
-    <section class="mb-14">
-      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">七大執行策略</h2>
-      <div class="space-y-3">
-        {strategies.map((s, i) => (
-          <div class="flex gap-4 items-start bg-gray-50 rounded-lg px-4 py-3">
-            <span class="shrink-0 text-xs font-bold text-white bg-[#1a56a0] rounded-full w-6 h-6 flex items-center justify-center">{i + 1}</span>
-            <div>
-              <span class="font-semibold text-gray-800 text-sm">{s.label}</span>
-              <span class="text-gray-500 text-sm ml-2">— {s.desc}</span>
-            </div>
-          </div>
-        ))}
+    <section class="mb-12">
+      <img src="/images/framework/framework-org.png" alt="計畫組織架構圖" class="w-full rounded-xl shadow-sm" />
+      <p class="text-sm text-gray-400 text-center mt-2">計畫組織架構圖</p>
+    </section>
+
+    <section class="mb-12 space-y-6">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4">四大主軸與七大策略</h2>
+
+      <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <h3 class="font-bold text-gray-800 mb-3">
+          <span class="inline-block bg-[#1a56a0] text-white text-xs px-2 py-0.5 rounded mr-2">A 主軸一</span>
+          跨域／跨界／跨校資源整合團隊建立（策略 1、3）
+        </h3>
+        <p class="text-sm text-gray-500 mb-3">負責人：廖俊芳、陳立言、顧長永</p>
+        <ul class="text-sm text-gray-600 space-y-2">
+          <li><span class="font-semibold text-gray-700">策略 1：</span>整合跨域、跨界、跨校資源，建立跨領域協力團隊。</li>
+          <li><span class="font-semibold text-gray-700">策略 3：</span>強化 USR 教師社群，增進跨域師資交流、對談、合作及社會實踐。</li>
+        </ul>
+      </div>
+
+      <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <h3 class="font-bold text-gray-800 mb-3">
+          <span class="inline-block bg-[#1a56a0] text-white text-xs px-2 py-0.5 rounded mr-2">B 主軸二</span>
+          專業服務學習課程與多國語衛教 APP 教材（策略 2、5）
+        </h3>
+        <p class="text-sm text-gray-500 mb-3">負責人：翁一珍、陳泰良、季慕華</p>
+        <ul class="text-sm text-gray-600 space-y-2">
+          <li><span class="font-semibold text-gray-700">策略 2：</span>持續開設及精進跨域的專業行動導向課程，進行社會參與式教學，拓增、深化學生跨域及專業服務學習。</li>
+          <li><span class="font-semibold text-gray-700">策略 5：</span>研製多國語醫療文宣／就醫卡，進行研發繪本 APP、多國語衛教單張、衛教影片等，並開發多國語看診科別推薦 APP，拓增國際醫療服務對象。</li>
+        </ul>
+      </div>
+
+      <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <h3 class="font-bold text-gray-800 mb-3">
+          <span class="inline-block bg-[#1a56a0] text-white text-xs px-2 py-0.5 rounded mr-2">C 主軸三</span>
+          社區醫療志工專業服務（策略 4）
+        </h3>
+        <p class="text-sm text-gray-500 mb-3">負責人：陳立言、季慕華、賴文儀</p>
+        <ul class="text-sm text-gray-600 space-y-2">
+          <li><span class="font-semibold text-gray-700">策略 4：</span>深化醫療志工之專業服務，除從事醫療行政支援 on-site 服務，並安排學生擔任醫院翻譯志工、製作繪本及說故事志工。</li>
+        </ul>
+      </div>
+
+      <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-sm">
+        <h3 class="font-bold text-gray-800 mb-3">
+          <span class="inline-block bg-[#1a56a0] text-white text-xs px-2 py-0.5 rounded mr-2">D 主軸四</span>
+          海外國際醫療志工服務及中、英文師資培育網路課程（策略 6、7）
+        </h3>
+        <p class="text-sm text-gray-500 mb-3">負責人：孫韵芳、翁一珍、季慕華、陳泰良</p>
+        <ul class="text-sm text-gray-600 space-y-2">
+          <li><span class="font-semibold text-gray-700">策略 6：</span>深耕跨國國際服務方案，與 Green Umbrella Organization (Cambodia)、Operation Smile (Vietnam) 及 GlobeMed (University of Michigan, USA) 合作推動跨國界的國際醫療志工服務。</li>
+          <li><span class="font-semibold text-gray-700">策略 7：</span>開發跨國之中、英文師資培育網路課程，培育 Green Umbrella International School 的中英文師資。</li>
+        </ul>
       </div>
     </section>
 
-    <section class="bg-[#1a56a0] text-white rounded-2xl p-8 text-center">
-      <p class="text-lg font-bold mb-1">核心使命</p>
-      <p class="text-blue-100">以科技傳遞溫暖，用愛心永續關懷。</p>
-      <p class="text-blue-200 text-sm mt-1 italic">Tech warms, love sustains, worldwide connection.</p>
+    <section class="mb-8">
+      <img src="/images/framework/framework-structure.png" alt="計畫整體執行架構圖" class="w-full rounded-xl shadow-sm" />
+      <p class="text-sm text-gray-400 text-center mt-2">計畫整體執行架構圖</p>
     </section>
+
   </div>
 </BaseLayout>
