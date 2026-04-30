@@ -6,6 +6,22 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
+
+const events = [
+  { date: '114/09/26', title: '場域討論會議', url: 'https://www.facebook.com/share/p/1FKiFfrVXx/' },
+  { date: '114/07/27', title: '遊戲與社福的對話', url: 'https://www.facebook.com/share/p/16S6n2E1h5/' },
+  { date: '114/07/22', title: '場域夥伴討論會議', url: 'https://www.facebook.com/share/p/1CP6YbrHMD/' },
+  { date: '114/07/16', title: '場域討論會議', url: 'https://www.facebook.com/share/p/1EPZYnxA1T/' },
+  { date: '114/07/08', title: '文藻 USR + 芥菜種會「華語教學國際場域需求及教材研發」線上討論會', url: 'https://www.facebook.com/share/p/176yw4FRyj/' },
+  { date: '114/06/10', title: '教師社群講座——跨文化的呼召：從砂勞越啟程通往南洋', url: 'https://www.facebook.com/share/p/1BEJfeQ6Au/' },
+  { date: '114/03/26', title: '國際小螺絲釘線上相見歡', url: 'https://www.facebook.com/share/p/18z3bCo8Xn/' },
+  { date: '114/03/22', title: '醫院小螺絲釘教育訓練', url: 'https://www.facebook.com/share/p/1CgZMmazJZ/' },
+  { date: '114/03/19', title: '大手牽小手相見歡', url: 'https://www.facebook.com/share/p/17UcNdmssJ/' },
+  { date: '114/03/17', title: '社區課程', url: 'https://www.facebook.com/share/p/16awDMtbpS/' },
+  { date: '114/03/12', title: '計畫與芥菜種會線上會議', url: 'https://www.facebook.com/share/p/16v1NHsGRQ/' },
+  { date: '114/02/13', title: '計畫與芥菜種會線上會議', url: 'https://www.facebook.com/share/p/19oNJFh1i6/' },
+  { date: '114/01/14', title: '場域團隊建立', url: 'https://www.facebook.com/share/p/1JHdYHUxfE/' },
+];
 ---
 <BaseLayout title="計畫動態 — 文藻小螺絲釘 WUTH">
   <PageHero title="計畫動態" subtitle="Updates & Activities" />
@@ -41,6 +57,21 @@ const posts = (await getCollection('blog')).sort(
             </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- 114 學年活動動態 -->
+    <section class="mb-14">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">114 學年活動動態</h2>
+      <div class="space-y-2">
+        {events.map(e => (
+          <a href={e.url} target="_blank" rel="noopener"
+            class="group flex items-center gap-4 bg-white border border-gray-100 rounded-xl px-5 py-3 shadow-sm hover:shadow-md hover:border-[#1a56a0] transition-all">
+            <span class="shrink-0 text-xs font-mono text-[#1a56a0] w-16">{e.date.slice(3)}</span>
+            <p class="flex-1 text-sm text-gray-700 group-hover:text-[#1a56a0] transition-colors">{e.title}</p>
+            <span class="text-gray-300 group-hover:text-[#1a56a0] transition-colors shrink-0 text-xs">📘 →</span>
+          </a>
+        ))}
       </div>
     </section>
 
