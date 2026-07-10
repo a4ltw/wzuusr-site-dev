@@ -29,32 +29,22 @@
 | 華文教材 | `src/pages/materials/chinese.astro` | 資料已填 |
 | 教材總覽 | `src/pages/materials/index.astro` | 資料已填 |
 | 計畫緣起 | `src/pages/about/origin.astro` | 資料已填 |
-
-### 🚧 只有框架、內容待填
-
-| 頁面 | 路徑 | 待辦 |
-|------|------|------|
-| 活動部落格 | `src/pages/blog/index.astro` | 需整合 Astro Content Collections，匯入 22 篇文章 |
-| 最新活動 | `src/pages/activities.astro` | 目前轉址到部落格，可評估是否需要獨立頁面 |
-| USR EXPO（中） | `src/pages/expo/zh.astro` | 內容待從 Wix 搬移（PDF 提供） |
-| USR EXPO（英） | `src/pages/expo/en.astro` | 內容待從 Wix 搬移（PDF 提供） |
+| 計畫動態 | `src/pages/activities.astro` | 整合部落格文章列表 + Facebook 活動連結 |
+| USR EXPO（中） | `src/pages/expo/zh.astro` | 完整中文文章已填入 |
+| USR EXPO（英） | `src/pages/expo/en.astro` | 完整英文文章已填入 |
+| 活動部落格 | `src/pages/blog/index.astro` | 301 轉址至 `/activities` |
 
 ---
 
 ## 待辦事項
 
-### 🔴 優先（從 Wix 搬內容）
+### 🔴 優先
 
-搬移方式：**瀏覽器列印成 PDF → 丟給 Claude 處理**
-
-- [ ] USR EXPO 中文版（`expo/zh.astro`）
-- [ ] USR EXPO 英文版（`expo/en.astro`）
+- [ ] **部落格文章補齊**：目前有 2020–2022、2025 年（共 21 篇），缺 2023–2024 年的文章
 - [ ] 確認 `fields.astro` 的 placeholder 內容是否正確
 
 ### 🟡 中期
 
-- [ ] **部落格整合**：用 Astro Content Collections 把 `.archived/docs/blog/posts/` 的 22 篇 markdown 匯入，讓 `/blog` 頁面能列出文章
-- [ ] **部落格文章補齊**：目前有 2020–2022、2025 年，缺 2023–2024 年的文章
 - [ ] **圖片清點**：`public/images/` 目前圖片與各頁面的對應是否正確
 
 ### 🟢 後期
@@ -99,5 +89,9 @@ src/
 public/images/
 ├── hero/                    首頁 Hero 圖
 ├── team/                    團隊成員照片
-└── partners/                合作夥伴 Logo
+├── partners/                合作夥伴 Logo
+├── materials/               教材封面圖
+├── expo/                    EXPO 文章插圖
+├── framework/               計畫架構圖
+└── events/                  活動照片
 ```
