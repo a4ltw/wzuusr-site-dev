@@ -19,3 +19,7 @@ wix_backup/
 wix-pdf/
 *.pptx.pdf
 WORKLOG.md
+fb_token.md
+t_ingredient/fb-posts-raw.json
+t_ingredient/
+_task_state.md
