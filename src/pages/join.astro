@@ -8,7 +8,11 @@ const videos = [
   { title: '歡樂收割日 — 期末慶祝大會', url: 'https://reurl.cc/ax04oG' },
   { title: '大海裡的家 — 動態繪本（師生作品）', url: 'https://reurl.cc/rYd6ME' },
   { title: '寄居蟹的時尚災難 — 動畫影片', url: 'https://reurl.cc/RknyAz' },
+  { title: '我們一起走過 113-2', url: 'https://reurl.cc/ax043Q' },
 ];
+
+const totalSlides = 18;
+const fbCourseUrl = 'https://www.facebook.com/share/1M2CD1uPvh/';
 ---
 <BaseLayout title="招生資訊 — 文藻小螺絲釘 WUTH">
   <PageHero title="招生資訊" subtitle="Join Us" />
@@ -65,15 +69,50 @@ const videos = [
     <!-- 報名 -->
     <section class="mb-12 text-center">
       <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6 text-left">課程報名</h2>
-      <a href="https://join.wzuusr.org/" target="_blank" rel="noopener"
+      <a href={fbCourseUrl} target="_blank" rel="noopener"
         class="inline-block px-10 py-4 bg-[#1a56a0] text-white text-lg font-bold rounded-full hover:bg-blue-800 transition-colors shadow-lg hover:shadow-xl">
-        立即報名 →
+        查看 114-2 課程 FB 貼文 →
       </a>
-      <p class="text-xs text-gray-400 mt-3">join.wzuusr.org</p>
+      <p class="text-xs text-gray-400 mt-3">選課請於學校選課系統輸入代碼 1030（深碗）／1034（微型）</p>
+    </section>
+
+    <!-- 宣傳海報 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">宣傳海報</h2>
+      <img src="/images/join/poster.png" alt="114-2 招生宣傳海報" loading="lazy"
+        class="w-full max-w-2xl mx-auto rounded-xl shadow-md" />
+    </section>
+
+    <!-- 課程介紹簡報 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">課程介紹簡報</h2>
+      <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+        <img id="join-slide" src="/images/join/slides/output-page-0.jpg" alt="課程介紹簡報" loading="lazy"
+          class="w-full rounded-lg" />
+        <div class="flex items-center justify-center gap-4 mt-4">
+          <button id="join-slide-prev" class="px-4 py-2 bg-gray-100 rounded-full text-sm hover:bg-gray-200 transition-colors">❮ 上一頁</button>
+          <span class="text-sm text-gray-500"><span id="join-slide-current">1</span> / {totalSlides}</span>
+          <button id="join-slide-next" class="px-4 py-2 bg-gray-100 rounded-full text-sm hover:bg-gray-200 transition-colors">下一頁 ❯</button>
+        </div>
+        <div class="text-center mt-4">
+          <a href="/files/course_presentation.pdf" download
+            class="text-sm text-[#1a56a0] hover:underline">⬇ 下載完整簡報 PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 學姊心得 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">聽聽學姊怎麼說</h2>
+      <div class="aspect-video rounded-xl overflow-hidden shadow-md">
+        <iframe src="https://www.youtube.com/embed/FhVxROgeMyQ" title="學姊心得分享"
+          class="w-full h-full" loading="lazy" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
     </section>
 
     <!-- 影片 -->
-    <section>
+    <section class="mb-12">
       <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">走過的路 — 影片分享</h2>
       <div class="space-y-3">
         {videos.map(v => (
@@ -85,5 +124,48 @@ const videos = [
         ))}
       </div>
     </section>
+
+    <!-- 課程課綱 -->
+    <section class="mb-12">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">課程課綱</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <a href="/files/1142_deepbowl.pdf" target="_blank" rel="noopener"
+          class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm text-center hover:shadow-md transition-shadow">
+          <p class="text-3xl mb-2">📄</p>
+          <h3 class="font-bold text-gray-800 mb-1">深碗課程大綱（4 學分）</h3>
+          <p class="text-sm text-[#1a56a0]">開啟 PDF →</p>
+        </a>
+        <a href="/files/1142_micro.pdf" target="_blank" rel="noopener"
+          class="bg-white border border-gray-100 rounded-xl p-5 shadow-sm text-center hover:shadow-md transition-shadow">
+          <p class="text-3xl mb-2">📄</p>
+          <h3 class="font-bold text-gray-800 mb-1">微型課程大綱（1 學分）</h3>
+          <p class="text-sm text-[#1a56a0]">開啟 PDF →</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section class="text-center">
+      <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6 text-left">課程諮詢</h2>
+      <p class="text-gray-700 mb-2">有任何問題，歡迎隨時詢問～</p>
+      <p class="text-gray-700 mb-6">☎️ 電話：07-342-6031 #3210 千千助理</p>
+      <img src="/images/join/Linebiz_USR.png" alt="課程客服 LINE QR Code" loading="lazy"
+        class="max-w-[240px] w-full mx-auto rounded-xl shadow-sm" />
+      <p class="mt-3"><a href="https://lin.ee/iH1vrCT" target="_blank" rel="noopener"
+        class="text-[#1a56a0] hover:underline text-sm">加入課程客服 LINE</a></p>
+    </section>
   </div>
+
+  <script is:inline define:vars={{ totalSlides }}>
+    let current = 0;
+    const img = document.getElementById('join-slide');
+    const counter = document.getElementById('join-slide-current');
+    function show(delta) {
+      current = (current + delta + totalSlides) % totalSlides;
+      img.src = `/images/join/slides/output-page-${current}.jpg`;
+      counter.textContent = current + 1;
+    }
+    document.getElementById('join-slide-prev').addEventListener('click', () => show(-1));
+    document.getElementById('join-slide-next').addEventListener('click', () => show(1));
+  </script>
 </BaseLayout>
