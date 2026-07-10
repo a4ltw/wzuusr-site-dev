@@ -34,15 +34,15 @@ const navItems = [
 ];
 ---
 
-<header class="bg-white shadow-sm sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+<header id="main-header" class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
+  <div id="main-nav" class="max-w-6xl mx-auto px-4 flex items-center justify-between py-3 transition-all duration-300">
 
     <!-- Logo -->
     <a href="/" class="flex items-center gap-2 shrink-0">
-      <img src="/images/logo.png" alt="文藻小螺絲釘" class="h-10 w-10 object-contain" />
+      <img id="header-logo" src="/images/logo.png" alt="文藻小螺絲釘" class="h-10 w-10 object-contain transition-all duration-300" />
       <div class="flex flex-col leading-tight">
-        <span class="text-[#1a56a0] font-bold text-base tracking-wide">文藻小螺絲釘</span>
-        <span class="text-gray-400 text-xs tracking-widest">WUTH</span>
+        <span class="font-bold text-base tracking-wide bg-gradient-to-r from-[#1a56a0] via-blue-500 to-cyan-500 bg-clip-text text-transparent">文藻小螺絲釘</span>
+        <span id="header-sub" class="text-gray-400 text-xs tracking-widest transition-all duration-300">WUTH</span>
       </div>
     </a>
 
@@ -57,7 +57,7 @@ const navItems = [
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
               </svg>
             </button>
-            <div class="absolute top-full left-0 pt-1 hidden group-hover:block">
+            <div class="absolute top-full left-0 pt-1 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
               <div class="bg-white rounded-lg shadow-lg border border-gray-100 py-1 min-w-36">
                 {item.children.map(child => (
                   <a href={child.href}
@@ -108,4 +108,26 @@ const navItems = [
   const btn = document.getElementById('menu-btn');
   const menu = document.getElementById('mobile-menu');
   btn?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+
+  // 滾動時縮小導覽列
+  const nav = document.getElementById('main-nav');
+  const logo = document.getElementById('header-logo');
+  const sub = document.getElementById('header-sub');
+  const threshold = 50;
+
+  function updateHeader() {
+    if (window.scrollY > threshold) {
+      nav?.classList.replace('py-3', 'py-1.5');
+      logo?.classList.replace('h-10', 'h-8');
+      logo?.classList.replace('w-10', 'w-8');
+      sub?.classList.add('hidden');
+    } else {
+      nav?.classList.replace('py-1.5', 'py-3');
+      logo?.classList.replace('h-8', 'h-10');
+      logo?.classList.replace('w-8', 'w-10');
+      sub?.classList.remove('hidden');
+    }
+  }
+  window.addEventListener('scroll', updateHeader, { passive: true });
+  updateHeader();
 </script>

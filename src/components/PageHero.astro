@@ -4,13 +4,22 @@ interface Props {
   subtitle?: string;
   image?: string;
 }
-const { title, subtitle, image = '/images/hero/hero-main.avif' } = Astro.props;
+const { title, subtitle, image } = Astro.props;
 ---
-<section class="relative h-56 md:h-72 flex items-center justify-center text-center overflow-hidden">
-  <img src={image} alt={title} class="absolute inset-0 w-full h-full object-cover" />
-  <div class="absolute inset-0 bg-black/55"></div>
+<section class="relative py-16 md:py-24 flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-[#1a56a0] via-blue-600 to-cyan-500">
+  {image && (
+    <>
+      <img src={image} alt="" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-br from-[#1a56a0]/85 via-blue-700/75 to-cyan-600/70"></div>
+    </>
+  )}
+  <!-- 裝飾光暈 -->
+  <div class="absolute -top-16 -left-16 w-64 h-64 rounded-full bg-cyan-300/20 blur-3xl"></div>
+  <div class="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-blue-300/20 blur-3xl"></div>
+
   <div class="relative z-10 px-4">
+    {subtitle && <p class="text-cyan-200 text-sm md:text-base font-semibold uppercase tracking-[0.25em] mb-3">{subtitle}</p>}
     <h1 class="text-white text-3xl md:text-5xl font-bold tracking-wide">{title}</h1>
-    {subtitle && <p class="text-gray-200 mt-2 text-base md:text-lg">{subtitle}</p>}
+    <div class="mt-5 mx-auto w-16 h-1 rounded-full bg-gradient-to-r from-orange-400 to-amber-300"></div>
   </div>
 </section>
