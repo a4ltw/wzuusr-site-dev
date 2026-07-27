@@ -36,6 +36,36 @@ const quickLinks = [
   { title: '媒體報導', desc: '看見我們的足跡', href: '/news', gradient: 'from-cyan-500 to-teal-500' },
 ];
 
+const activities = [
+  {
+    title: '2025 蚵寮 AI 永續探索營',
+    date: '2025年',
+    excerpt: '結合 AI 科技與在地文化，帶孩子用音樂、影片與手作燈籠，重新認識自己成長的蚵仔寮。',
+    image: '/images/events/act1.jpg',
+    href: '/blog/2025-oyster-camp',
+  },
+  {
+    title: '2025 攝影展《遊 SEA 時光》',
+    date: '2025年',
+    excerpt: '募集珍貴老照片，對比蚵寮過去與當今樣貌，向外界訴說蚵仔寮的歷史故事。',
+    image: '/images/events/act2.jpg',
+    href: '/blog/2025-photo-exhibition',
+  },
+  {
+    title: '2025 義大醫院移工健檢口譯',
+    date: '2025年',
+    excerpt: '越南籍志工現場口譯，服務超過 500 位移工，落實就醫無障礙的核心使命。',
+    image: '/images/events/act3.jpg',
+    href: '/blog/2025-health-check',
+  },
+  {
+    title: '113 學年度第二學期 期末慶賀',
+    date: '2025年',
+    excerpt: '「歡樂收割日」師生齊聚一堂，14 組期末影片輪番展映，回顧一學期的服務學習成果。',
+    image: '/images/events/act4.jpg',
+    href: '/blog/2025-semester-end',
+  },
+];
 ---
 
 <BaseLayout title="文藻小螺絲釘 WUTH — Wenzao USR: Tech with Heart">
@@ -99,6 +129,42 @@ const quickLinks = [
             <div class="text-lg text-gray-700">{s.label}</div>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 最新活動 -->
+  <section class="py-20 px-4 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">最新活動</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {activities.map(act => (
+          <a href={act.href}
+            class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img
+                src={act.image}
+                alt={act.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div class="p-4">
+              <p class="text-xs text-gray-400 mb-1">{act.date}</p>
+              <h3 class="font-semibold text-gray-800 text-sm leading-snug mb-2 group-hover:text-[#1a56a0] transition-colors">
+                {act.title}
+              </h3>
+              <p class="text-xs text-gray-500 leading-relaxed line-clamp-3">{act.excerpt}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="/activities"
+          class="inline-block px-8 py-3 border-2 border-[#1a56a0] text-[#1a56a0] font-semibold rounded-full hover:bg-[#1a56a0] hover:text-white transition-colors">
+          查看全部活動
+        </a>
       </div>
     </div>
   </section>

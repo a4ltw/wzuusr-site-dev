@@ -21,10 +21,27 @@ import PageHero from '../components/PageHero.astro';
       <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm text-center">
         <p class="text-3xl mb-3">💬</p>
         <h3 class="font-bold text-gray-800 mb-2">社群媒體</h3>
-        <div class="flex justify-center gap-3 mt-2">
-          <a href="https://fb.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">Facebook</a>
-          <a href="https://ig.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">Instagram</a>
-          <a href="https://yt.wzuusr.org" target="_blank" rel="noopener" class="text-[#1a56a0] hover:underline text-sm">YouTube</a>
+        <div class="flex justify-center gap-3 mt-3">
+          <a href="https://fb.wzuusr.org" target="_blank" rel="noopener" aria-label="Facebook"
+            class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gradient-to-br hover:from-[#1a56a0] hover:to-cyan-500 flex items-center justify-center transition-colors group">
+            <svg class="w-5 h-5 fill-gray-500 group-hover:fill-white" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+            </svg>
+          </a>
+          <a href="https://ig.wzuusr.org" target="_blank" rel="noopener" aria-label="Instagram"
+            class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gradient-to-br hover:from-[#1a56a0] hover:to-cyan-500 flex items-center justify-center transition-colors group">
+            <svg class="w-5 h-5 stroke-gray-500 group-hover:stroke-white" viewBox="0 0 24 24" fill="none">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2"/>
+              <circle cx="12" cy="12" r="4" stroke-width="2"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" class="fill-gray-500 group-hover:fill-white" stroke="none"/>
+            </svg>
+          </a>
+          <a href="https://yt.wzuusr.org" target="_blank" rel="noopener" aria-label="YouTube"
+            class="w-10 h-10 rounded-full bg-gray-100 hover:bg-gradient-to-br hover:from-[#1a56a0] hover:to-cyan-500 flex items-center justify-center transition-colors group">
+            <svg class="w-5 h-5 fill-gray-500 group-hover:fill-white" viewBox="0 0 24 24">
+              <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
