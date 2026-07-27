@@ -30,7 +30,7 @@ jobs:
 
       # fb/ig/yt 轉址頁在 public/，build 時自動帶入 dist
       - name: Write CNAME
-        run: echo "dev.wzuusr.org" > dist/CNAME
+        run: echo "wzuusr.org" > dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
