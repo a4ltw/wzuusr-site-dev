@@ -185,15 +185,25 @@ const archiveByYear: { year: string; items: { date: string; media: string; title
       <h2 class="text-xl font-bold text-[#1a56a0] border-l-4 border-[#1a56a0] pl-4 mb-6">媒體報導精選</h2>
       <div class="space-y-3">
         {news.map(n => (
-          <a href={n.url} target="_blank" rel="noopener"
-            class="flex items-center gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-[#1a56a0] transition-all group">
-            <span class="text-2xl">{mediaIcons[n.media] ?? '📄'}</span>
-            <div class="flex-1 min-w-0">
-              <p class="text-xs text-gray-400 mb-0.5">{n.date} ・ {n.media}</p>
-              <p class="text-sm font-semibold text-gray-800 group-hover:text-[#1a56a0] transition-colors truncate">{n.title}</p>
+          n.url ? (
+            <a href={n.url} target="_blank" rel="noopener"
+              class="flex items-center gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-[#1a56a0] transition-all group">
+              <span class="text-2xl">{mediaIcons[n.media] ?? '📄'}</span>
+              <div class="flex-1 min-w-0">
+                <p class="text-xs text-gray-400 mb-0.5">{n.date} ・ {n.media}</p>
+                <p class="text-sm font-semibold text-gray-800 group-hover:text-[#1a56a0] transition-colors truncate">{n.title}</p>
+              </div>
+              <span class="text-gray-300 group-hover:text-[#1a56a0] transition-colors shrink-0">→</span>
+            </a>
+          ) : (
+            <div class="flex items-center gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+              <span class="text-2xl">{mediaIcons[n.media] ?? '📄'}</span>
+              <div class="flex-1 min-w-0">
+                <p class="text-xs text-gray-400 mb-0.5">{n.date} ・ {n.media}</p>
+                <p class="text-sm font-semibold text-gray-800 truncate">{n.title}</p>
+              </div>
             </div>
-            <span class="text-gray-300 group-hover:text-[#1a56a0] transition-colors shrink-0">→</span>
-          </a>
+          )
         ))}
       </div>
       <p class="text-xs text-gray-400 text-center mt-6">更多報導持續整理中</p>
