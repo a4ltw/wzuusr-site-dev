@@ -13,7 +13,7 @@
 本網站原為 Wix 免費版網站，已全面搬遷至 Astro + Tailwind CSS，
 提供跨裝置自適應的瀏覽體驗。
 
-## 技術棧
+## 使用技術
 
 - [Astro](https://astro.build/)（v6）— 靜態網站產生器
 - [Tailwind CSS](https://tailwindcss.com/)（v4，CSS-first 設定，無 `tailwind.config.js`）
